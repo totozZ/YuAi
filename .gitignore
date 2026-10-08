@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+out/
+public/reference.mp3
+public/fonts/
+__pycache__/
+.venv-alignment/

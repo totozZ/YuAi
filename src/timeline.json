@@ -1,0 +1,1921 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 3729,
+  "audioFile": "reference.mp3",
+  "sourceAudio": "雨爱-杨丞琳.mp3",
+  "audioSha256": "d538acd1969921a0ba76e102c89c8e617e3c6922defc4825910936d1ea9bedf7",
+  "visualOffsetFrames": 0,
+  "lyricClearFrame": 3117,
+  "nextVocalSeconds": 124.322,
+  "beatAnalysis": {
+    "method": "positive log-spectral flux, local median, 0.30s peak separation",
+    "status": "audio-derived rhythmic candidates; line timing supplied by LRC; no manual listening claimed"
+  },
+  "lyrics": [
+    {
+      "id": 0,
+      "text": "窗外的天气",
+      "phrases": [
+        "窗外的天气"
+      ],
+      "sourceSeconds": 16.286,
+      "startFrame": 489,
+      "endFrame": 621,
+      "effect": "window",
+      "anchor": [
+        230,
+        390
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 1,
+      "text": "就像是 你多变的表情",
+      "phrases": [
+        "就像是",
+        "你多变的表情"
+      ],
+      "sourceSeconds": 20.706,
+      "startFrame": 621,
+      "endFrame": 794,
+      "effect": "window",
+      "anchor": [
+        250,
+        400
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 2,
+      "text": "下雨了 雨陪我哭泣",
+      "phrases": [
+        "下雨了",
+        "雨陪我哭泣"
+      ],
+      "sourceSeconds": 26.454,
+      "startFrame": 794,
+      "endFrame": 985,
+      "effect": "fall",
+      "anchor": [
+        245,
+        380
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 3,
+      "text": "看不清 我也不想看清",
+      "phrases": [
+        "看不清",
+        "我也不想看清"
+      ],
+      "sourceSeconds": 32.824,
+      "startFrame": 985,
+      "endFrame": 1152,
+      "effect": "focus",
+      "anchor": [
+        255,
+        430
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 4,
+      "text": "离开你 我安静的抽离",
+      "phrases": [
+        "离开你",
+        "我安静的抽离"
+      ],
+      "sourceSeconds": 38.411,
+      "startFrame": 1152,
+      "endFrame": 1266,
+      "effect": "depart",
+      "anchor": [
+        230,
+        390
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 5,
+      "text": "不忍揭晓的剧情",
+      "phrases": [
+        "不忍揭晓的剧情"
+      ],
+      "sourceSeconds": 42.188,
+      "startFrame": 1266,
+      "endFrame": 1354,
+      "effect": "depart",
+      "anchor": [
+        270,
+        445
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 6,
+      "text": "我的泪流在心里",
+      "phrases": [
+        "我的泪",
+        "流在心里"
+      ],
+      "sourceSeconds": 45.138,
+      "startFrame": 1354,
+      "endFrame": 1444,
+      "effect": "ripple",
+      "anchor": [
+        265,
+        395
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 7,
+      "text": "学会放弃",
+      "phrases": [
+        "学会放弃"
+      ],
+      "sourceSeconds": 48.145,
+      "startFrame": 1444,
+      "endFrame": 1528,
+      "effect": "release",
+      "anchor": [
+        290,
+        440
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 8,
+      "text": "听雨的声音 一滴滴清晰",
+      "phrases": [
+        "听雨的声音",
+        "一滴滴清晰"
+      ],
+      "sourceSeconds": 50.943,
+      "startFrame": 1528,
+      "endFrame": 1623,
+      "effect": "rain",
+      "anchor": [
+        230,
+        350
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 9,
+      "text": "你的呼吸像雨滴渗入我的爱里",
+      "phrases": [
+        "你的呼吸像雨滴",
+        "渗入我的爱里"
+      ],
+      "sourceSeconds": 54.109,
+      "startFrame": 1623,
+      "endFrame": 1782,
+      "effect": "breathe",
+      "anchor": [
+        260,
+        375
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 10,
+      "text": "真希望雨能下不停",
+      "phrases": [
+        "真希望雨",
+        "能下不停"
+      ],
+      "sourceSeconds": 59.402,
+      "startFrame": 1782,
+      "endFrame": 1896,
+      "effect": "rain",
+      "anchor": [
+        260,
+        370
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 11,
+      "text": "让想念继续 让爱变透明",
+      "phrases": [
+        "让想念继续",
+        "让爱变透明"
+      ],
+      "sourceSeconds": 63.21,
+      "startFrame": 1896,
+      "endFrame": 2075,
+      "effect": "transparent",
+      "anchor": [
+        280,
+        380
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 12,
+      "text": "我爱上给我勇气的 Rainie Love",
+      "phrases": [
+        "我爱上给我勇气的",
+        "Rainie Love"
+      ],
+      "sourceSeconds": 69.173,
+      "startFrame": 2075,
+      "endFrame": 2250,
+      "effect": "bloom",
+      "anchor": [
+        230,
+        380
+      ],
+      "fontSize": 75
+    },
+    {
+      "id": 13,
+      "text": "窗外的雨滴 一滴滴累积",
+      "phrases": [
+        "窗外的雨滴",
+        "一滴滴累积"
+      ],
+      "sourceSeconds": 75.006,
+      "startFrame": 2250,
+      "endFrame": 2344,
+      "effect": "accumulate",
+      "anchor": [
+        250,
+        355
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 14,
+      "text": "屋内的湿气像储存爱你的记忆",
+      "phrases": [
+        "屋内的湿气",
+        "像储存爱你的记忆"
+      ],
+      "sourceSeconds": 78.144,
+      "startFrame": 2344,
+      "endFrame": 2504,
+      "effect": "memory",
+      "anchor": [
+        265,
+        400
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 15,
+      "text": "真希望雨能下不停",
+      "phrases": [
+        "真希望雨",
+        "能下不停"
+      ],
+      "sourceSeconds": 83.483,
+      "startFrame": 2504,
+      "endFrame": 2614,
+      "effect": "rain",
+      "anchor": [
+        240,
+        370
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 16,
+      "text": "雨爱的秘密 能一直延续",
+      "phrases": [
+        "雨爱的秘密",
+        "能一直延续"
+      ],
+      "sourceSeconds": 87.143,
+      "startFrame": 2614,
+      "endFrame": 2795,
+      "effect": "continue",
+      "anchor": [
+        245,
+        395
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 17,
+      "text": "我相信我将会看到",
+      "phrases": [
+        "我相信",
+        "我将会看到"
+      ],
+      "sourceSeconds": 93.15299999999999,
+      "startFrame": 2795,
+      "endFrame": 2895,
+      "effect": "open",
+      "anchor": [
+        315,
+        390
+      ],
+      "fontSize": 83
+    },
+    {
+      "id": 18,
+      "text": "彩虹的美丽",
+      "phrases": [
+        "彩虹的美丽"
+      ],
+      "sourceSeconds": 96.507,
+      "startFrame": 2895,
+      "endFrame": 3117,
+      "effect": "arc",
+      "anchor": [
+        0,
+        0
+      ],
+      "fontSize": 83
+    }
+  ],
+  "scenes": [
+    {
+      "kind": "window",
+      "startFrame": 0,
+      "endFrame": 794
+    },
+    {
+      "kind": "street",
+      "startFrame": 794,
+      "endFrame": 1152
+    },
+    {
+      "kind": "silhouette",
+      "startFrame": 1152,
+      "endFrame": 1528
+    },
+    {
+      "kind": "rain",
+      "startFrame": 1528,
+      "endFrame": 1896
+    },
+    {
+      "kind": "memory",
+      "startFrame": 1896,
+      "endFrame": 2250
+    },
+    {
+      "kind": "window",
+      "startFrame": 2250,
+      "endFrame": 2344
+    },
+    {
+      "kind": "memory",
+      "startFrame": 2344,
+      "endFrame": 2504
+    },
+    {
+      "kind": "rain",
+      "startFrame": 2504,
+      "endFrame": 2795
+    },
+    {
+      "kind": "rainbow",
+      "startFrame": 2795,
+      "endFrame": 3117
+    },
+    {
+      "kind": "solo",
+      "startFrame": 3117,
+      "endFrame": 3729
+    }
+  ],
+  "beats": [
+    {
+      "frame": 36,
+      "seconds": 1.207438,
+      "strength": 0.0481
+    },
+    {
+      "frame": 84,
+      "seconds": 2.786395,
+      "strength": 0.0712
+    },
+    {
+      "frame": 97,
+      "seconds": 3.227574,
+      "strength": 0.5391
+    },
+    {
+      "frame": 108,
+      "seconds": 3.610703,
+      "strength": 0.1017
+    },
+    {
+      "frame": 119,
+      "seconds": 3.959002,
+      "strength": 0.3715
+    },
+    {
+      "frame": 130,
+      "seconds": 4.330522,
+      "strength": 0.3303
+    },
+    {
+      "frame": 141,
+      "seconds": 4.702041,
+      "strength": 0.3102
+    },
+    {
+      "frame": 153,
+      "seconds": 5.09678,
+      "strength": 0.2616
+    },
+    {
+      "frame": 164,
+      "seconds": 5.456689,
+      "strength": 0.7559
+    },
+    {
+      "frame": 176,
+      "seconds": 5.851429,
+      "strength": 0.3172
+    },
+    {
+      "frame": 187,
+      "seconds": 6.222948,
+      "strength": 0.5736
+    },
+    {
+      "frame": 198,
+      "seconds": 6.606077,
+      "strength": 0.1331
+    },
+    {
+      "frame": 209,
+      "seconds": 6.977596,
+      "strength": 0.6071
+    },
+    {
+      "frame": 221,
+      "seconds": 7.360726,
+      "strength": 1
+    },
+    {
+      "frame": 232,
+      "seconds": 7.743855,
+      "strength": 0.2545
+    },
+    {
+      "frame": 243,
+      "seconds": 8.103764,
+      "strength": 0.3821
+    },
+    {
+      "frame": 255,
+      "seconds": 8.498503,
+      "strength": 0.7607
+    },
+    {
+      "frame": 266,
+      "seconds": 8.858413,
+      "strength": 0.3373
+    },
+    {
+      "frame": 278,
+      "seconds": 9.253152,
+      "strength": 0.5158
+    },
+    {
+      "frame": 289,
+      "seconds": 9.624671,
+      "strength": 0.2591
+    },
+    {
+      "frame": 300,
+      "seconds": 9.99619,
+      "strength": 0.7746
+    },
+    {
+      "frame": 311,
+      "seconds": 10.36771,
+      "strength": 0.5786
+    },
+    {
+      "frame": 323,
+      "seconds": 10.762449,
+      "strength": 0.1884
+    },
+    {
+      "frame": 333,
+      "seconds": 11.110748,
+      "strength": 0.3509
+    },
+    {
+      "frame": 344,
+      "seconds": 11.470658,
+      "strength": 0.6277
+    },
+    {
+      "frame": 356,
+      "seconds": 11.853787,
+      "strength": 0.531
+    },
+    {
+      "frame": 367,
+      "seconds": 12.236916,
+      "strength": 0.9088
+    },
+    {
+      "frame": 379,
+      "seconds": 12.631655,
+      "strength": 0.1387
+    },
+    {
+      "frame": 390,
+      "seconds": 12.991565,
+      "strength": 0.5151
+    },
+    {
+      "frame": 401,
+      "seconds": 13.363084,
+      "strength": 0.888
+    },
+    {
+      "frame": 412,
+      "seconds": 13.746213,
+      "strength": 0.1862
+    },
+    {
+      "frame": 423,
+      "seconds": 14.106122,
+      "strength": 0.3802
+    },
+    {
+      "frame": 435,
+      "seconds": 14.500862,
+      "strength": 0.7459
+    },
+    {
+      "frame": 446,
+      "seconds": 14.860771,
+      "strength": 0.1404
+    },
+    {
+      "frame": 457,
+      "seconds": 15.2439,
+      "strength": 0.762
+    },
+    {
+      "frame": 477,
+      "seconds": 15.894059,
+      "strength": 0.8406
+    },
+    {
+      "frame": 494,
+      "seconds": 16.474558,
+      "strength": 0.0852
+    },
+    {
+      "frame": 504,
+      "seconds": 16.788027,
+      "strength": 0.6437
+    },
+    {
+      "frame": 514,
+      "seconds": 17.124717,
+      "strength": 0.1295
+    },
+    {
+      "frame": 523,
+      "seconds": 17.449796,
+      "strength": 0.9385
+    },
+    {
+      "frame": 541,
+      "seconds": 18.030295,
+      "strength": 0.6552
+    },
+    {
+      "frame": 550,
+      "seconds": 18.343764,
+      "strength": 0.0959
+    },
+    {
+      "frame": 570,
+      "seconds": 19.005533,
+      "strength": 0.6178
+    },
+    {
+      "frame": 588,
+      "seconds": 19.586032,
+      "strength": 0.2243
+    },
+    {
+      "frame": 602,
+      "seconds": 20.050431,
+      "strength": 0.2213
+    },
+    {
+      "frame": 619,
+      "seconds": 20.64254,
+      "strength": 0.7915
+    },
+    {
+      "frame": 638,
+      "seconds": 21.257868,
+      "strength": 0.3895
+    },
+    {
+      "frame": 649,
+      "seconds": 21.640998,
+      "strength": 0.06
+    },
+    {
+      "frame": 660,
+      "seconds": 22.000907,
+      "strength": 0.4013
+    },
+    {
+      "frame": 669,
+      "seconds": 22.314376,
+      "strength": 0.1826
+    },
+    {
+      "frame": 682,
+      "seconds": 22.732336,
+      "strength": 0.6893
+    },
+    {
+      "frame": 695,
+      "seconds": 23.150295,
+      "strength": 0.2519
+    },
+    {
+      "frame": 705,
+      "seconds": 23.486984,
+      "strength": 0.7451
+    },
+    {
+      "frame": 715,
+      "seconds": 23.823673,
+      "strength": 0.7562
+    },
+    {
+      "frame": 727,
+      "seconds": 24.241633,
+      "strength": 0.6649
+    },
+    {
+      "frame": 739,
+      "seconds": 24.624762,
+      "strength": 0.2001
+    },
+    {
+      "frame": 750,
+      "seconds": 24.984671,
+      "strength": 0.735
+    },
+    {
+      "frame": 767,
+      "seconds": 25.57678,
+      "strength": 0.2993
+    },
+    {
+      "frame": 779,
+      "seconds": 25.983129,
+      "strength": 1
+    },
+    {
+      "frame": 793,
+      "seconds": 26.447528,
+      "strength": 0.4462
+    },
+    {
+      "frame": 805,
+      "seconds": 26.842268,
+      "strength": 0.2849
+    },
+    {
+      "frame": 817,
+      "seconds": 27.225397,
+      "strength": 0.3834
+    },
+    {
+      "frame": 830,
+      "seconds": 27.666576,
+      "strength": 0.2116
+    },
+    {
+      "frame": 839,
+      "seconds": 27.968435,
+      "strength": 0.5242
+    },
+    {
+      "frame": 858,
+      "seconds": 28.595374,
+      "strength": 0.1949
+    },
+    {
+      "frame": 868,
+      "seconds": 28.943673,
+      "strength": 0.1712
+    },
+    {
+      "frame": 883,
+      "seconds": 29.419683,
+      "strength": 0.9096
+    },
+    {
+      "frame": 898,
+      "seconds": 29.930522,
+      "strength": 0.8607
+    },
+    {
+      "frame": 907,
+      "seconds": 30.243991,
+      "strength": 0.4512
+    },
+    {
+      "frame": 919,
+      "seconds": 30.63873,
+      "strength": 0.0584
+    },
+    {
+      "frame": 930,
+      "seconds": 30.987029,
+      "strength": 0.5403
+    },
+    {
+      "frame": 940,
+      "seconds": 31.346939,
+      "strength": 0.374
+    },
+    {
+      "frame": 964,
+      "seconds": 32.124807,
+      "strength": 0.2375
+    },
+    {
+      "frame": 973,
+      "seconds": 32.426667,
+      "strength": 1
+    },
+    {
+      "frame": 983,
+      "seconds": 32.751746,
+      "strength": 0.5995
+    },
+    {
+      "frame": 998,
+      "seconds": 33.250975,
+      "strength": 0.37
+    },
+    {
+      "frame": 1020,
+      "seconds": 33.994014,
+      "strength": 0.6179
+    },
+    {
+      "frame": 1038,
+      "seconds": 34.597732,
+      "strength": 0.2635
+    },
+    {
+      "frame": 1055,
+      "seconds": 35.155011,
+      "strength": 0.9141
+    },
+    {
+      "frame": 1064,
+      "seconds": 35.456871,
+      "strength": 0.4066
+    },
+    {
+      "frame": 1074,
+      "seconds": 35.79356,
+      "strength": 0.9904
+    },
+    {
+      "frame": 1083,
+      "seconds": 36.09542,
+      "strength": 0.0658
+    },
+    {
+      "frame": 1095,
+      "seconds": 36.490159,
+      "strength": 0.5666
+    },
+    {
+      "frame": 1109,
+      "seconds": 36.977778,
+      "strength": 0.4593
+    },
+    {
+      "frame": 1123,
+      "seconds": 37.418957,
+      "strength": 0.3408
+    },
+    {
+      "frame": 1132,
+      "seconds": 37.744036,
+      "strength": 0.3244
+    },
+    {
+      "frame": 1149,
+      "seconds": 38.289705,
+      "strength": 1
+    },
+    {
+      "frame": 1166,
+      "seconds": 38.858594,
+      "strength": 0.1301
+    },
+    {
+      "frame": 1177,
+      "seconds": 39.230113,
+      "strength": 0.9882
+    },
+    {
+      "frame": 1188,
+      "seconds": 39.613243,
+      "strength": 0.6691
+    },
+    {
+      "frame": 1199,
+      "seconds": 39.961542,
+      "strength": 0.736
+    },
+    {
+      "frame": 1210,
+      "seconds": 40.321451,
+      "strength": 0.7766
+    },
+    {
+      "frame": 1222,
+      "seconds": 40.73941,
+      "strength": 0.3607
+    },
+    {
+      "frame": 1233,
+      "seconds": 41.09932,
+      "strength": 1
+    },
+    {
+      "frame": 1244,
+      "seconds": 41.470839,
+      "strength": 0.8538
+    },
+    {
+      "frame": 1255,
+      "seconds": 41.842358,
+      "strength": 0.6515
+    },
+    {
+      "frame": 1267,
+      "seconds": 42.225488,
+      "strength": 1
+    },
+    {
+      "frame": 1276,
+      "seconds": 42.538957,
+      "strength": 0.8957
+    },
+    {
+      "frame": 1286,
+      "seconds": 42.864036,
+      "strength": 0.7955
+    },
+    {
+      "frame": 1295,
+      "seconds": 43.165896,
+      "strength": 0.2218
+    },
+    {
+      "frame": 1305,
+      "seconds": 43.502585,
+      "strength": 0.8665
+    },
+    {
+      "frame": 1320,
+      "seconds": 44.001814,
+      "strength": 0.8089
+    },
+    {
+      "frame": 1334,
+      "seconds": 44.466213,
+      "strength": 1
+    },
+    {
+      "frame": 1346,
+      "seconds": 44.860952,
+      "strength": 0.4192
+    },
+    {
+      "frame": 1357,
+      "seconds": 45.232472,
+      "strength": 1
+    },
+    {
+      "frame": 1368,
+      "seconds": 45.603991,
+      "strength": 0.1839
+    },
+    {
+      "frame": 1379,
+      "seconds": 45.9639,
+      "strength": 1
+    },
+    {
+      "frame": 1394,
+      "seconds": 46.463129,
+      "strength": 0.676
+    },
+    {
+      "frame": 1413,
+      "seconds": 47.101678,
+      "strength": 1
+    },
+    {
+      "frame": 1422,
+      "seconds": 47.403537,
+      "strength": 0.5972
+    },
+    {
+      "frame": 1432,
+      "seconds": 47.717007,
+      "strength": 1
+    },
+    {
+      "frame": 1447,
+      "seconds": 48.227846,
+      "strength": 1
+    },
+    {
+      "frame": 1458,
+      "seconds": 48.599365,
+      "strength": 0.9891
+    },
+    {
+      "frame": 1467,
+      "seconds": 48.901224,
+      "strength": 0.1108
+    },
+    {
+      "frame": 1477,
+      "seconds": 49.249524,
+      "strength": 0.7342
+    },
+    {
+      "frame": 1487,
+      "seconds": 49.574603,
+      "strength": 0.0679
+    },
+    {
+      "frame": 1497,
+      "seconds": 49.899683,
+      "strength": 0.629
+    },
+    {
+      "frame": 1514,
+      "seconds": 50.468571,
+      "strength": 0.7378
+    },
+    {
+      "frame": 1534,
+      "seconds": 51.13034,
+      "strength": 0.5204
+    },
+    {
+      "frame": 1549,
+      "seconds": 51.629569,
+      "strength": 0.0943
+    },
+    {
+      "frame": 1559,
+      "seconds": 51.977868,
+      "strength": 0.5923
+    },
+    {
+      "frame": 1571,
+      "seconds": 52.360998,
+      "strength": 0.3865
+    },
+    {
+      "frame": 1580,
+      "seconds": 52.674467,
+      "strength": 0.3004
+    },
+    {
+      "frame": 1590,
+      "seconds": 53.011156,
+      "strength": 0.5782
+    },
+    {
+      "frame": 1604,
+      "seconds": 53.475556,
+      "strength": 0.7236
+    },
+    {
+      "frame": 1615,
+      "seconds": 53.847075,
+      "strength": 0.2278
+    },
+    {
+      "frame": 1627,
+      "seconds": 54.218594,
+      "strength": 0.8745
+    },
+    {
+      "frame": 1638,
+      "seconds": 54.601723,
+      "strength": 0.1001
+    },
+    {
+      "frame": 1649,
+      "seconds": 54.973243,
+      "strength": 0.8783
+    },
+    {
+      "frame": 1666,
+      "seconds": 55.530522,
+      "strength": 0.5116
+    },
+    {
+      "frame": 1679,
+      "seconds": 55.983311,
+      "strength": 0.7385
+    },
+    {
+      "frame": 1694,
+      "seconds": 56.48254,
+      "strength": 0.9271
+    },
+    {
+      "frame": 1706,
+      "seconds": 56.865669,
+      "strength": 0.2898
+    },
+    {
+      "frame": 1717,
+      "seconds": 57.225578,
+      "strength": 0.4581
+    },
+    {
+      "frame": 1728,
+      "seconds": 57.608707,
+      "strength": 1
+    },
+    {
+      "frame": 1740,
+      "seconds": 57.991837,
+      "strength": 0.5708
+    },
+    {
+      "frame": 1751,
+      "seconds": 58.363356,
+      "strength": 0.4563
+    },
+    {
+      "frame": 1762,
+      "seconds": 58.734875,
+      "strength": 0.3631
+    },
+    {
+      "frame": 1772,
+      "seconds": 59.071565,
+      "strength": 0.7308
+    },
+    {
+      "frame": 1781,
+      "seconds": 59.373424,
+      "strength": 0.5845
+    },
+    {
+      "frame": 1795,
+      "seconds": 59.849433,
+      "strength": 0.2543
+    },
+    {
+      "frame": 1807,
+      "seconds": 60.220952,
+      "strength": 0.7691
+    },
+    {
+      "frame": 1816,
+      "seconds": 60.546032,
+      "strength": 0.072
+    },
+    {
+      "frame": 1826,
+      "seconds": 60.871111,
+      "strength": 0.6535
+    },
+    {
+      "frame": 1841,
+      "seconds": 61.35873,
+      "strength": 0.422
+    },
+    {
+      "frame": 1857,
+      "seconds": 61.916009,
+      "strength": 0.5098
+    },
+    {
+      "frame": 1874,
+      "seconds": 62.473288,
+      "strength": 0.5105
+    },
+    {
+      "frame": 1886,
+      "seconds": 62.856417,
+      "strength": 0.1315
+    },
+    {
+      "frame": 1897,
+      "seconds": 63.227937,
+      "strength": 0.3832
+    },
+    {
+      "frame": 1908,
+      "seconds": 63.599456,
+      "strength": 0.1106
+    },
+    {
+      "frame": 1919,
+      "seconds": 63.982585,
+      "strength": 0.9971
+    },
+    {
+      "frame": 1930,
+      "seconds": 64.342494,
+      "strength": 0.2598
+    },
+    {
+      "frame": 1941,
+      "seconds": 64.702404,
+      "strength": 0.3993
+    },
+    {
+      "frame": 1953,
+      "seconds": 65.108753,
+      "strength": 0.4255
+    },
+    {
+      "frame": 1964,
+      "seconds": 65.468662,
+      "strength": 0.5844
+    },
+    {
+      "frame": 1975,
+      "seconds": 65.828571,
+      "strength": 0.2386
+    },
+    {
+      "frame": 1987,
+      "seconds": 66.223311,
+      "strength": 1
+    },
+    {
+      "frame": 1999,
+      "seconds": 66.61805,
+      "strength": 0.2751
+    },
+    {
+      "frame": 2009,
+      "seconds": 66.977959,
+      "strength": 1
+    },
+    {
+      "frame": 2020,
+      "seconds": 67.349478,
+      "strength": 0.4237
+    },
+    {
+      "frame": 2032,
+      "seconds": 67.732608,
+      "strength": 0.5582
+    },
+    {
+      "frame": 2043,
+      "seconds": 68.104127,
+      "strength": 0.5453
+    },
+    {
+      "frame": 2054,
+      "seconds": 68.475646,
+      "strength": 1
+    },
+    {
+      "frame": 2066,
+      "seconds": 68.881995,
+      "strength": 0.1369
+    },
+    {
+      "frame": 2077,
+      "seconds": 69.230295,
+      "strength": 0.4321
+    },
+    {
+      "frame": 2089,
+      "seconds": 69.625034,
+      "strength": 0.1544
+    },
+    {
+      "frame": 2100,
+      "seconds": 69.984943,
+      "strength": 0.8844
+    },
+    {
+      "frame": 2111,
+      "seconds": 70.368073,
+      "strength": 0.4281
+    },
+    {
+      "frame": 2121,
+      "seconds": 70.693152,
+      "strength": 0.3465
+    },
+    {
+      "frame": 2131,
+      "seconds": 71.029841,
+      "strength": 0.044
+    },
+    {
+      "frame": 2141,
+      "seconds": 71.378141,
+      "strength": 0.7007
+    },
+    {
+      "frame": 2156,
+      "seconds": 71.85415,
+      "strength": 0.6629
+    },
+    {
+      "frame": 2167,
+      "seconds": 72.237279,
+      "strength": 0.7348
+    },
+    {
+      "frame": 2178,
+      "seconds": 72.597188,
+      "strength": 0.9241
+    },
+    {
+      "frame": 2189,
+      "seconds": 72.968707,
+      "strength": 0.4072
+    },
+    {
+      "frame": 2201,
+      "seconds": 73.351837,
+      "strength": 0.7572
+    },
+    {
+      "frame": 2217,
+      "seconds": 73.909116,
+      "strength": 0.7881
+    },
+    {
+      "frame": 2234,
+      "seconds": 74.478005,
+      "strength": 0.6431
+    },
+    {
+      "frame": 2245,
+      "seconds": 74.849524,
+      "strength": 0.24
+    },
+    {
+      "frame": 2257,
+      "seconds": 75.232653,
+      "strength": 0.6631
+    },
+    {
+      "frame": 2267,
+      "seconds": 75.580952,
+      "strength": 0.6468
+    },
+    {
+      "frame": 2280,
+      "seconds": 75.987302,
+      "strength": 0.5194
+    },
+    {
+      "frame": 2291,
+      "seconds": 76.370431,
+      "strength": 0.3722
+    },
+    {
+      "frame": 2302,
+      "seconds": 76.71873,
+      "strength": 0.2382
+    },
+    {
+      "frame": 2312,
+      "seconds": 77.05542,
+      "strength": 0.4751
+    },
+    {
+      "frame": 2324,
+      "seconds": 77.473379,
+      "strength": 1
+    },
+    {
+      "frame": 2336,
+      "seconds": 77.856508,
+      "strength": 0.2254
+    },
+    {
+      "frame": 2347,
+      "seconds": 78.228027,
+      "strength": 0.7092
+    },
+    {
+      "frame": 2357,
+      "seconds": 78.564717,
+      "strength": 0.0767
+    },
+    {
+      "frame": 2369,
+      "seconds": 78.982676,
+      "strength": 0.8392
+    },
+    {
+      "frame": 2385,
+      "seconds": 79.505125,
+      "strength": 0.7152
+    },
+    {
+      "frame": 2403,
+      "seconds": 80.108844,
+      "strength": 0.5024
+    },
+    {
+      "frame": 2414,
+      "seconds": 80.480363,
+      "strength": 1
+    },
+    {
+      "frame": 2426,
+      "seconds": 80.863492,
+      "strength": 0.1572
+    },
+    {
+      "frame": 2437,
+      "seconds": 81.235011,
+      "strength": 0.7036
+    },
+    {
+      "frame": 2448,
+      "seconds": 81.606531,
+      "strength": 0.1734
+    },
+    {
+      "frame": 2459,
+      "seconds": 81.97805,
+      "strength": 1
+    },
+    {
+      "frame": 2469,
+      "seconds": 82.303129,
+      "strength": 0.4231
+    },
+    {
+      "frame": 2482,
+      "seconds": 82.732698,
+      "strength": 0.1411
+    },
+    {
+      "frame": 2492,
+      "seconds": 83.080998,
+      "strength": 1
+    },
+    {
+      "frame": 2504,
+      "seconds": 83.475737,
+      "strength": 0.4196
+    },
+    {
+      "frame": 2515,
+      "seconds": 83.847256,
+      "strength": 0.7432
+    },
+    {
+      "frame": 2527,
+      "seconds": 84.218776,
+      "strength": 0.7071
+    },
+    {
+      "frame": 2537,
+      "seconds": 84.555465,
+      "strength": 0.043
+    },
+    {
+      "frame": 2546,
+      "seconds": 84.868934,
+      "strength": 0.7295
+    },
+    {
+      "frame": 2561,
+      "seconds": 85.356553,
+      "strength": 0.328
+    },
+    {
+      "frame": 2572,
+      "seconds": 85.739683,
+      "strength": 0.2323
+    },
+    {
+      "frame": 2583,
+      "seconds": 86.111202,
+      "strength": 0.559
+    },
+    {
+      "frame": 2594,
+      "seconds": 86.482721,
+      "strength": 0.6712
+    },
+    {
+      "frame": 2605,
+      "seconds": 86.84263,
+      "strength": 0.1068
+    },
+    {
+      "frame": 2616,
+      "seconds": 87.20254,
+      "strength": 0.9478
+    },
+    {
+      "frame": 2629,
+      "seconds": 87.620499,
+      "strength": 0.1044
+    },
+    {
+      "frame": 2639,
+      "seconds": 87.980408,
+      "strength": 0.7412
+    },
+    {
+      "frame": 2650,
+      "seconds": 88.328707,
+      "strength": 0.4266
+    },
+    {
+      "frame": 2662,
+      "seconds": 88.723447,
+      "strength": 0.5785
+    },
+    {
+      "frame": 2673,
+      "seconds": 89.106576,
+      "strength": 0.6041
+    },
+    {
+      "frame": 2684,
+      "seconds": 89.478095,
+      "strength": 0.7833
+    },
+    {
+      "frame": 2696,
+      "seconds": 89.861224,
+      "strength": 0.2813
+    },
+    {
+      "frame": 2707,
+      "seconds": 90.221134,
+      "strength": 1
+    },
+    {
+      "frame": 2718,
+      "seconds": 90.604263,
+      "strength": 0.2463
+    },
+    {
+      "frame": 2729,
+      "seconds": 90.975782,
+      "strength": 0.9599
+    },
+    {
+      "frame": 2740,
+      "seconds": 91.324082,
+      "strength": 0.1707
+    },
+    {
+      "frame": 2752,
+      "seconds": 91.730431,
+      "strength": 0.6059
+    },
+    {
+      "frame": 2763,
+      "seconds": 92.11356,
+      "strength": 0.6289
+    },
+    {
+      "frame": 2774,
+      "seconds": 92.473469,
+      "strength": 0.7426
+    },
+    {
+      "frame": 2789,
+      "seconds": 92.961088,
+      "strength": 0.4113
+    },
+    {
+      "frame": 2809,
+      "seconds": 93.622857,
+      "strength": 0.231
+    },
+    {
+      "frame": 2819,
+      "seconds": 93.982766,
+      "strength": 0.9593
+    },
+    {
+      "frame": 2829,
+      "seconds": 94.307846,
+      "strength": 0.5947
+    },
+    {
+      "frame": 2841,
+      "seconds": 94.702585,
+      "strength": 0.3618
+    },
+    {
+      "frame": 2853,
+      "seconds": 95.108934,
+      "strength": 0.5216
+    },
+    {
+      "frame": 2864,
+      "seconds": 95.480454,
+      "strength": 0.8897
+    },
+    {
+      "frame": 2882,
+      "seconds": 96.060952,
+      "strength": 0.5248
+    },
+    {
+      "frame": 2891,
+      "seconds": 96.374422,
+      "strength": 0.054
+    },
+    {
+      "frame": 2904,
+      "seconds": 96.792381,
+      "strength": 0.5904
+    },
+    {
+      "frame": 2915,
+      "seconds": 97.1639,
+      "strength": 0.4874
+    },
+    {
+      "frame": 2932,
+      "seconds": 97.732789,
+      "strength": 0.5871
+    },
+    {
+      "frame": 2943,
+      "seconds": 98.104308,
+      "strength": 0.4162
+    },
+    {
+      "frame": 2954,
+      "seconds": 98.475828,
+      "strength": 1
+    },
+    {
+      "frame": 2966,
+      "seconds": 98.870567,
+      "strength": 0.3251
+    },
+    {
+      "frame": 2977,
+      "seconds": 99.230476,
+      "strength": 0.5867
+    },
+    {
+      "frame": 2988,
+      "seconds": 99.613605,
+      "strength": 0.1849
+    },
+    {
+      "frame": 2999,
+      "seconds": 99.973515,
+      "strength": 0.6972
+    },
+    {
+      "frame": 3010,
+      "seconds": 100.345034,
+      "strength": 0.6696
+    },
+    {
+      "frame": 3022,
+      "seconds": 100.728163,
+      "strength": 0.2959
+    },
+    {
+      "frame": 3033,
+      "seconds": 101.111293,
+      "strength": 0.3017
+    },
+    {
+      "frame": 3044,
+      "seconds": 101.471202,
+      "strength": 0.7842
+    },
+    {
+      "frame": 3055,
+      "seconds": 101.842721,
+      "strength": 0.2452
+    },
+    {
+      "frame": 3067,
+      "seconds": 102.22585,
+      "strength": 0.6473
+    },
+    {
+      "frame": 3078,
+      "seconds": 102.60898,
+      "strength": 0.2791
+    },
+    {
+      "frame": 3089,
+      "seconds": 102.980499,
+      "strength": 0.986
+    },
+    {
+      "frame": 3100,
+      "seconds": 103.340408,
+      "strength": 0.7734
+    },
+    {
+      "frame": 3112,
+      "seconds": 103.735147,
+      "strength": 0.2852
+    },
+    {
+      "frame": 3123,
+      "seconds": 104.106667,
+      "strength": 0.8305
+    },
+    {
+      "frame": 3134,
+      "seconds": 104.478186,
+      "strength": 1
+    },
+    {
+      "frame": 3145,
+      "seconds": 104.838095,
+      "strength": 0.3487
+    },
+    {
+      "frame": 3157,
+      "seconds": 105.221224,
+      "strength": 0.3034
+    },
+    {
+      "frame": 3168,
+      "seconds": 105.592744,
+      "strength": 0.3589
+    },
+    {
+      "frame": 3179,
+      "seconds": 105.975873,
+      "strength": 1
+    },
+    {
+      "frame": 3190,
+      "seconds": 106.347392,
+      "strength": 0.9754
+    },
+    {
+      "frame": 3202,
+      "seconds": 106.718912,
+      "strength": 0.2776
+    },
+    {
+      "frame": 3213,
+      "seconds": 107.102041,
+      "strength": 0.4933
+    },
+    {
+      "frame": 3224,
+      "seconds": 107.46195,
+      "strength": 1
+    },
+    {
+      "frame": 3235,
+      "seconds": 107.833469,
+      "strength": 0.3898
+    },
+    {
+      "frame": 3246,
+      "seconds": 108.216599,
+      "strength": 0.6384
+    },
+    {
+      "frame": 3257,
+      "seconds": 108.576508,
+      "strength": 0.1949
+    },
+    {
+      "frame": 3269,
+      "seconds": 108.971247,
+      "strength": 0.8175
+    },
+    {
+      "frame": 3280,
+      "seconds": 109.342766,
+      "strength": 0.7878
+    },
+    {
+      "frame": 3292,
+      "seconds": 109.737506,
+      "strength": 0.3659
+    },
+    {
+      "frame": 3303,
+      "seconds": 110.109025,
+      "strength": 0.4674
+    },
+    {
+      "frame": 3314,
+      "seconds": 110.480544,
+      "strength": 0.9002
+    },
+    {
+      "frame": 3326,
+      "seconds": 110.852063,
+      "strength": 0.2095
+    },
+    {
+      "frame": 3337,
+      "seconds": 111.235193,
+      "strength": 0.5271
+    },
+    {
+      "frame": 3349,
+      "seconds": 111.641542,
+      "strength": 0.1295
+    },
+    {
+      "frame": 3359,
+      "seconds": 111.978231,
+      "strength": 1
+    },
+    {
+      "frame": 3370,
+      "seconds": 112.338141,
+      "strength": 0.767
+    },
+    {
+      "frame": 3382,
+      "seconds": 112.73288,
+      "strength": 0.2277
+    },
+    {
+      "frame": 3393,
+      "seconds": 113.104399,
+      "strength": 0.4489
+    },
+    {
+      "frame": 3404,
+      "seconds": 113.464308,
+      "strength": 0.9197
+    },
+    {
+      "frame": 3415,
+      "seconds": 113.835828,
+      "strength": 0.2225
+    },
+    {
+      "frame": 3427,
+      "seconds": 114.218957,
+      "strength": 0.4462
+    },
+    {
+      "frame": 3438,
+      "seconds": 114.602086,
+      "strength": 0.4639
+    },
+    {
+      "frame": 3449,
+      "seconds": 114.973605,
+      "strength": 1
+    },
+    {
+      "frame": 3460,
+      "seconds": 115.345125,
+      "strength": 1
+    },
+    {
+      "frame": 3472,
+      "seconds": 115.739864,
+      "strength": 0.4364
+    },
+    {
+      "frame": 3483,
+      "seconds": 116.099773,
+      "strength": 0.7218
+    },
+    {
+      "frame": 3494,
+      "seconds": 116.471293,
+      "strength": 0.9857
+    },
+    {
+      "frame": 3506,
+      "seconds": 116.854422,
+      "strength": 0.2658
+    },
+    {
+      "frame": 3517,
+      "seconds": 117.225941,
+      "strength": 0.2143
+    },
+    {
+      "frame": 3528,
+      "seconds": 117.60907,
+      "strength": 0.3524
+    },
+    {
+      "frame": 3539,
+      "seconds": 117.98059,
+      "strength": 0.9489
+    },
+    {
+      "frame": 3550,
+      "seconds": 118.340499,
+      "strength": 0.6051
+    },
+    {
+      "frame": 3562,
+      "seconds": 118.735238,
+      "strength": 0.5045
+    },
+    {
+      "frame": 3573,
+      "seconds": 119.106757,
+      "strength": 0.8369
+    },
+    {
+      "frame": 3584,
+      "seconds": 119.466667,
+      "strength": 1
+    },
+    {
+      "frame": 3601,
+      "seconds": 120.047166,
+      "strength": 0.5458
+    },
+    {
+      "frame": 3618,
+      "seconds": 120.604444,
+      "strength": 0.4048
+    },
+    {
+      "frame": 3629,
+      "seconds": 120.975964,
+      "strength": 0.8745
+    },
+    {
+      "frame": 3640,
+      "seconds": 121.347483,
+      "strength": 1
+    },
+    {
+      "frame": 3658,
+      "seconds": 121.939592,
+      "strength": 0.1045
+    },
+    {
+      "frame": 3669,
+      "seconds": 122.299501,
+      "strength": 1
+    },
+    {
+      "frame": 3678,
+      "seconds": 122.601361,
+      "strength": 0.0806
+    },
+    {
+      "frame": 3687,
+      "seconds": 122.91483,
+      "strength": 0.0537
+    },
+    {
+      "frame": 3697,
+      "seconds": 123.228299,
+      "strength": 0.6728
+    },
+    {
+      "frame": 3708,
+      "seconds": 123.611429,
+      "strength": 0.3568
+    },
+    {
+      "frame": 3719,
+      "seconds": 123.971338,
+      "strength": 0.7942
+    }
+  ]
+}

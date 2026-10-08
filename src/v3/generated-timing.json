@@ -1,0 +1,1629 @@
+{
+  "version": 3,
+  "fps": 30,
+  "durationInFrames": 3729,
+  "audioOffsetFrames": 0,
+  "sourceAudioSha256": "d538acd1969921a0ba76e102c89c8e617e3c6922defc4825910936d1ea9bedf7",
+  "lines": [
+    {
+      "id": 0,
+      "text": "窗外的天气",
+      "startFrame": 489,
+      "endFrame": 621,
+      "tokens": [
+        {
+          "id": "l00-t00",
+          "text": "窗",
+          "readableFrame": 489,
+          "sourceSeconds": 16.286,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 492
+        },
+        {
+          "id": "l00-t01",
+          "text": "外",
+          "readableFrame": 492,
+          "sourceSeconds": 16.387,
+          "source": "ctc-estimate",
+          "confidence": 0.864,
+          "endFrame": 504
+        },
+        {
+          "id": "l00-t02",
+          "text": "的",
+          "readableFrame": 504,
+          "sourceSeconds": 16.788,
+          "source": "ctc-estimate",
+          "confidence": 0.961,
+          "endFrame": 524
+        },
+        {
+          "id": "l00-t03",
+          "text": "天",
+          "readableFrame": 524,
+          "sourceSeconds": 17.47,
+          "source": "ctc-estimate",
+          "confidence": 0.932,
+          "endFrame": 545
+        },
+        {
+          "id": "l00-t04",
+          "text": "气",
+          "readableFrame": 545,
+          "sourceSeconds": 18.152,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 621
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "text": "就像是 你多变的表情",
+      "startFrame": 621,
+      "endFrame": 794,
+      "tokens": [
+        {
+          "id": "l01-t00",
+          "text": "就",
+          "readableFrame": 621,
+          "sourceSeconds": 20.706,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 627
+        },
+        {
+          "id": "l01-t01",
+          "text": "像",
+          "readableFrame": 627,
+          "sourceSeconds": 20.886,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 633
+        },
+        {
+          "id": "l01-t02",
+          "text": "是",
+          "readableFrame": 633,
+          "sourceSeconds": 21.088,
+          "source": "ctc-estimate",
+          "confidence": 0.988,
+          "endFrame": 677
+        },
+        {
+          "id": "l01-t03",
+          "text": "你",
+          "readableFrame": 677,
+          "sourceSeconds": 22.573,
+          "source": "ctc-estimate",
+          "confidence": 0.946,
+          "endFrame": 682
+        },
+        {
+          "id": "l01-t04",
+          "text": "多",
+          "readableFrame": 682,
+          "sourceSeconds": 22.734,
+          "source": "ctc-estimate",
+          "confidence": 0.983,
+          "endFrame": 689
+        },
+        {
+          "id": "l01-t05",
+          "text": "变",
+          "readableFrame": 689,
+          "sourceSeconds": 22.974,
+          "source": "ctc-estimate",
+          "confidence": 0.892,
+          "endFrame": 695
+        },
+        {
+          "id": "l01-t06",
+          "text": "的",
+          "readableFrame": 695,
+          "sourceSeconds": 23.155,
+          "source": "ctc-estimate",
+          "confidence": 0.935,
+          "endFrame": 704
+        },
+        {
+          "id": "l01-t07",
+          "text": "表",
+          "readableFrame": 704,
+          "sourceSeconds": 23.476,
+          "source": "ctc-estimate",
+          "confidence": 0.864,
+          "endFrame": 717
+        },
+        {
+          "id": "l01-t08",
+          "text": "情",
+          "readableFrame": 717,
+          "sourceSeconds": 23.898,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 794
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "下雨了 雨陪我哭泣",
+      "startFrame": 794,
+      "endFrame": 985,
+      "tokens": [
+        {
+          "id": "l02-t00",
+          "text": "下",
+          "readableFrame": 794,
+          "sourceSeconds": 26.454,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 798
+        },
+        {
+          "id": "l02-t01",
+          "text": "雨",
+          "readableFrame": 798,
+          "sourceSeconds": 26.614,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 804
+        },
+        {
+          "id": "l02-t02",
+          "text": "了",
+          "readableFrame": 804,
+          "sourceSeconds": 26.795,
+          "source": "ctc-estimate",
+          "confidence": 0.972,
+          "endFrame": 839
+        },
+        {
+          "id": "l02-t03",
+          "text": "雨",
+          "readableFrame": 839,
+          "sourceSeconds": 27.959,
+          "source": "ctc-estimate",
+          "confidence": 0.821,
+          "endFrame": 851
+        },
+        {
+          "id": "l02-t04",
+          "text": "陪",
+          "readableFrame": 851,
+          "sourceSeconds": 28.36,
+          "source": "ctc-estimate",
+          "confidence": 0.879,
+          "endFrame": 861
+        },
+        {
+          "id": "l02-t05",
+          "text": "我",
+          "readableFrame": 861,
+          "sourceSeconds": 28.701,
+          "source": "ctc-estimate",
+          "confidence": 0.921,
+          "endFrame": 883
+        },
+        {
+          "id": "l02-t06",
+          "text": "哭",
+          "readableFrame": 883,
+          "sourceSeconds": 29.443,
+          "source": "ctc-estimate",
+          "confidence": 0.872,
+          "endFrame": 902
+        },
+        {
+          "id": "l02-t07",
+          "text": "泣",
+          "readableFrame": 902,
+          "sourceSeconds": 30.065,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 985
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "看不清 我也不想看清",
+      "startFrame": 985,
+      "endFrame": 1152,
+      "tokens": [
+        {
+          "id": "l03-t00",
+          "text": "看",
+          "readableFrame": 985,
+          "sourceSeconds": 32.824,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 1000
+        },
+        {
+          "id": "l03-t01",
+          "text": "不",
+          "readableFrame": 1000,
+          "sourceSeconds": 33.334,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1014
+        },
+        {
+          "id": "l03-t02",
+          "text": "清",
+          "readableFrame": 1014,
+          "sourceSeconds": 33.814,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1047
+        },
+        {
+          "id": "l03-t03",
+          "text": "我",
+          "readableFrame": 1047,
+          "sourceSeconds": 34.904,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1062
+        },
+        {
+          "id": "l03-t04",
+          "text": "也",
+          "readableFrame": 1062,
+          "sourceSeconds": 35.394,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1078
+        },
+        {
+          "id": "l03-t05",
+          "text": "不",
+          "readableFrame": 1078,
+          "sourceSeconds": 35.934,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1092
+        },
+        {
+          "id": "l03-t06",
+          "text": "想",
+          "readableFrame": 1092,
+          "sourceSeconds": 36.414,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1107
+        },
+        {
+          "id": "l03-t07",
+          "text": "看",
+          "readableFrame": 1107,
+          "sourceSeconds": 36.894,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1122
+        },
+        {
+          "id": "l03-t08",
+          "text": "清",
+          "readableFrame": 1122,
+          "sourceSeconds": 37.394,
+          "source": "vocal-window-estimate",
+          "confidence": null,
+          "endFrame": 1152
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "离开你 我安静的抽离",
+      "startFrame": 1152,
+      "endFrame": 1266,
+      "tokens": [
+        {
+          "id": "l04-t00",
+          "text": "离",
+          "readableFrame": 1152,
+          "sourceSeconds": 38.411,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 1159
+        },
+        {
+          "id": "l04-t01",
+          "text": "开",
+          "readableFrame": 1159,
+          "sourceSeconds": 38.631,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1166
+        },
+        {
+          "id": "l04-t02",
+          "text": "你",
+          "readableFrame": 1166,
+          "sourceSeconds": 38.852,
+          "source": "ctc-estimate",
+          "confidence": 0.913,
+          "endFrame": 1176
+        },
+        {
+          "id": "l04-t03",
+          "text": "我",
+          "readableFrame": 1176,
+          "sourceSeconds": 39.193,
+          "source": "ctc-estimate",
+          "confidence": 0.976,
+          "endFrame": 1188
+        },
+        {
+          "id": "l04-t04",
+          "text": "安",
+          "readableFrame": 1188,
+          "sourceSeconds": 39.594,
+          "source": "ctc-estimate",
+          "confidence": 0.96,
+          "endFrame": 1199
+        },
+        {
+          "id": "l04-t05",
+          "text": "静",
+          "readableFrame": 1199,
+          "sourceSeconds": 39.955,
+          "source": "ctc-estimate",
+          "confidence": 0.947,
+          "endFrame": 1210
+        },
+        {
+          "id": "l04-t06",
+          "text": "的",
+          "readableFrame": 1210,
+          "sourceSeconds": 40.336,
+          "source": "ctc-estimate",
+          "confidence": 0.997,
+          "endFrame": 1215
+        },
+        {
+          "id": "l04-t07",
+          "text": "抽",
+          "readableFrame": 1215,
+          "sourceSeconds": 40.496,
+          "source": "ctc-estimate",
+          "confidence": 0.966,
+          "endFrame": 1234
+        },
+        {
+          "id": "l04-t08",
+          "text": "离",
+          "readableFrame": 1234,
+          "sourceSeconds": 41.118,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 1266
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "不忍揭晓的剧情",
+      "startFrame": 1266,
+      "endFrame": 1354,
+      "tokens": [
+        {
+          "id": "l05-t00",
+          "text": "不",
+          "readableFrame": 1266,
+          "sourceSeconds": 42.188,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 1269
+        },
+        {
+          "id": "l05-t01",
+          "text": "忍",
+          "readableFrame": 1269,
+          "sourceSeconds": 42.288,
+          "source": "ctc-estimate",
+          "confidence": 0.923,
+          "endFrame": 1276
+        },
+        {
+          "id": "l05-t02",
+          "text": "揭",
+          "readableFrame": 1276,
+          "sourceSeconds": 42.549,
+          "source": "ctc-estimate",
+          "confidence": 0.943,
+          "endFrame": 1287
+        },
+        {
+          "id": "l05-t03",
+          "text": "晓",
+          "readableFrame": 1287,
+          "sourceSeconds": 42.909,
+          "source": "ctc-estimate",
+          "confidence": 0.908,
+          "endFrame": 1299
+        },
+        {
+          "id": "l05-t04",
+          "text": "的",
+          "readableFrame": 1299,
+          "sourceSeconds": 43.31,
+          "source": "ctc-estimate",
+          "confidence": 0.91,
+          "endFrame": 1305
+        },
+        {
+          "id": "l05-t05",
+          "text": "剧",
+          "readableFrame": 1305,
+          "sourceSeconds": 43.511,
+          "source": "ctc-estimate",
+          "confidence": 0.91,
+          "endFrame": 1312
+        },
+        {
+          "id": "l05-t06",
+          "text": "情",
+          "readableFrame": 1312,
+          "sourceSeconds": 43.731,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 1354
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "我的泪流在心里",
+      "startFrame": 1354,
+      "endFrame": 1444,
+      "tokens": [
+        {
+          "id": "l06-t00",
+          "text": "我",
+          "readableFrame": 1354,
+          "sourceSeconds": 45.138,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 1357
+        },
+        {
+          "id": "l06-t01",
+          "text": "的",
+          "readableFrame": 1357,
+          "sourceSeconds": 45.239,
+          "source": "ctc-estimate",
+          "confidence": 0.947,
+          "endFrame": 1368
+        },
+        {
+          "id": "l06-t02",
+          "text": "泪",
+          "readableFrame": 1368,
+          "sourceSeconds": 45.601,
+          "source": "ctc-estimate",
+          "confidence": 0.944,
+          "endFrame": 1379
+        },
+        {
+          "id": "l06-t03",
+          "text": "流",
+          "readableFrame": 1379,
+          "sourceSeconds": 45.963,
+          "source": "ctc-estimate",
+          "confidence": 0.897,
+          "endFrame": 1390
+        },
+        {
+          "id": "l06-t04",
+          "text": "在",
+          "readableFrame": 1390,
+          "sourceSeconds": 46.324,
+          "source": "ctc-estimate",
+          "confidence": 0.9,
+          "endFrame": 1396
+        },
+        {
+          "id": "l06-t05",
+          "text": "心",
+          "readableFrame": 1396,
+          "sourceSeconds": 46.525,
+          "source": "ctc-estimate",
+          "confidence": 0.981,
+          "endFrame": 1412
+        },
+        {
+          "id": "l06-t06",
+          "text": "里",
+          "readableFrame": 1412,
+          "sourceSeconds": 47.068,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 1444
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "学会放弃",
+      "startFrame": 1444,
+      "endFrame": 1528,
+      "tokens": [
+        {
+          "id": "l07-t00",
+          "text": "学",
+          "readableFrame": 1444,
+          "sourceSeconds": 48.145,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 1456
+        },
+        {
+          "id": "l07-t01",
+          "text": "会",
+          "readableFrame": 1456,
+          "sourceSeconds": 48.546,
+          "source": "ctc-estimate",
+          "confidence": 0.95,
+          "endFrame": 1468
+        },
+        {
+          "id": "l07-t02",
+          "text": "放",
+          "readableFrame": 1468,
+          "sourceSeconds": 48.948,
+          "source": "ctc-estimate",
+          "confidence": 0.952,
+          "endFrame": 1480
+        },
+        {
+          "id": "l07-t03",
+          "text": "弃",
+          "readableFrame": 1480,
+          "sourceSeconds": 49.329,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 1528
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "听雨的声音 一滴滴清晰",
+      "startFrame": 1528,
+      "endFrame": 1623,
+      "tokens": [
+        {
+          "id": "l08-t00",
+          "text": "听",
+          "readableFrame": 1528,
+          "sourceSeconds": 50.943,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 1530
+        },
+        {
+          "id": "l08-t01",
+          "text": "雨",
+          "readableFrame": 1530,
+          "sourceSeconds": 51.013,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1533
+        },
+        {
+          "id": "l08-t02",
+          "text": "的",
+          "readableFrame": 1533,
+          "sourceSeconds": 51.093,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1536
+        },
+        {
+          "id": "l08-t03",
+          "text": "声",
+          "readableFrame": 1536,
+          "sourceSeconds": 51.185,
+          "source": "ctc-estimate",
+          "confidence": 0.988,
+          "endFrame": 1548
+        },
+        {
+          "id": "l08-t04",
+          "text": "音",
+          "readableFrame": 1548,
+          "sourceSeconds": 51.587,
+          "source": "ctc-estimate",
+          "confidence": 0.974,
+          "endFrame": 1567
+        },
+        {
+          "id": "l08-t05",
+          "text": "一",
+          "readableFrame": 1567,
+          "sourceSeconds": 52.23,
+          "source": "ctc-estimate",
+          "confidence": 0.893,
+          "endFrame": 1571
+        },
+        {
+          "id": "l08-t06",
+          "text": "滴",
+          "readableFrame": 1571,
+          "sourceSeconds": 52.351,
+          "source": "ctc-estimate",
+          "confidence": 0.882,
+          "endFrame": 1576
+        },
+        {
+          "id": "l08-t07",
+          "text": "滴",
+          "readableFrame": 1576,
+          "sourceSeconds": 52.532,
+          "source": "ctc-estimate",
+          "confidence": 0.868,
+          "endFrame": 1581
+        },
+        {
+          "id": "l08-t08",
+          "text": "清",
+          "readableFrame": 1581,
+          "sourceSeconds": 52.693,
+          "source": "ctc-estimate",
+          "confidence": 0.932,
+          "endFrame": 1592
+        },
+        {
+          "id": "l08-t09",
+          "text": "晰",
+          "readableFrame": 1592,
+          "sourceSeconds": 53.075,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 1623
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "你的呼吸像雨滴渗入我的爱里",
+      "startFrame": 1623,
+      "endFrame": 1782,
+      "tokens": [
+        {
+          "id": "l09-t00",
+          "text": "你",
+          "readableFrame": 1623,
+          "sourceSeconds": 54.109,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 1628
+        },
+        {
+          "id": "l09-t01",
+          "text": "的",
+          "readableFrame": 1628,
+          "sourceSeconds": 54.259,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1632
+        },
+        {
+          "id": "l09-t02",
+          "text": "呼",
+          "readableFrame": 1632,
+          "sourceSeconds": 54.399,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1637
+        },
+        {
+          "id": "l09-t03",
+          "text": "吸",
+          "readableFrame": 1637,
+          "sourceSeconds": 54.55,
+          "source": "ctc-estimate",
+          "confidence": 0.734,
+          "endFrame": 1643
+        },
+        {
+          "id": "l09-t04",
+          "text": "像",
+          "readableFrame": 1643,
+          "sourceSeconds": 54.751,
+          "source": "ctc-estimate",
+          "confidence": 0.878,
+          "endFrame": 1655
+        },
+        {
+          "id": "l09-t05",
+          "text": "雨",
+          "readableFrame": 1655,
+          "sourceSeconds": 55.151,
+          "source": "ctc-estimate",
+          "confidence": 0.922,
+          "endFrame": 1666
+        },
+        {
+          "id": "l09-t06",
+          "text": "滴",
+          "readableFrame": 1666,
+          "sourceSeconds": 55.532,
+          "source": "ctc-estimate",
+          "confidence": 0.957,
+          "endFrame": 1682
+        },
+        {
+          "id": "l09-t07",
+          "text": "渗",
+          "readableFrame": 1682,
+          "sourceSeconds": 56.053,
+          "source": "ctc-estimate",
+          "confidence": 0.961,
+          "endFrame": 1697
+        },
+        {
+          "id": "l09-t08",
+          "text": "入",
+          "readableFrame": 1697,
+          "sourceSeconds": 56.574,
+          "source": "ctc-estimate",
+          "confidence": 0.923,
+          "endFrame": 1705
+        },
+        {
+          "id": "l09-t09",
+          "text": "我",
+          "readableFrame": 1705,
+          "sourceSeconds": 56.835,
+          "source": "ctc-estimate",
+          "confidence": 0.919,
+          "endFrame": 1716
+        },
+        {
+          "id": "l09-t10",
+          "text": "的",
+          "readableFrame": 1716,
+          "sourceSeconds": 57.216,
+          "source": "ctc-estimate",
+          "confidence": 0.82,
+          "endFrame": 1728
+        },
+        {
+          "id": "l09-t11",
+          "text": "爱",
+          "readableFrame": 1728,
+          "sourceSeconds": 57.616,
+          "source": "ctc-estimate",
+          "confidence": 0.92,
+          "endFrame": 1737
+        },
+        {
+          "id": "l09-t12",
+          "text": "里",
+          "readableFrame": 1737,
+          "sourceSeconds": 57.897,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 1782
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "真希望雨能下不停",
+      "startFrame": 1782,
+      "endFrame": 1896,
+      "tokens": [
+        {
+          "id": "l10-t00",
+          "text": "真",
+          "readableFrame": 1782,
+          "sourceSeconds": 59.402,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 1788
+        },
+        {
+          "id": "l10-t01",
+          "text": "希",
+          "readableFrame": 1788,
+          "sourceSeconds": 59.602,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 1795
+        },
+        {
+          "id": "l10-t02",
+          "text": "望",
+          "readableFrame": 1795,
+          "sourceSeconds": 59.824,
+          "source": "ctc-estimate",
+          "confidence": 0.953,
+          "endFrame": 1807
+        },
+        {
+          "id": "l10-t03",
+          "text": "雨",
+          "readableFrame": 1807,
+          "sourceSeconds": 60.226,
+          "source": "ctc-estimate",
+          "confidence": 0.947,
+          "endFrame": 1818
+        },
+        {
+          "id": "l10-t04",
+          "text": "能",
+          "readableFrame": 1818,
+          "sourceSeconds": 60.608,
+          "source": "ctc-estimate",
+          "confidence": 0.941,
+          "endFrame": 1829
+        },
+        {
+          "id": "l10-t05",
+          "text": "下",
+          "readableFrame": 1829,
+          "sourceSeconds": 60.95,
+          "source": "ctc-estimate",
+          "confidence": 0.972,
+          "endFrame": 1841
+        },
+        {
+          "id": "l10-t06",
+          "text": "不",
+          "readableFrame": 1841,
+          "sourceSeconds": 61.352,
+          "source": "ctc-estimate",
+          "confidence": 0.973,
+          "endFrame": 1862
+        },
+        {
+          "id": "l10-t07",
+          "text": "停",
+          "readableFrame": 1862,
+          "sourceSeconds": 62.075,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 1896
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "让想念继续 让爱变透明",
+      "startFrame": 1896,
+      "endFrame": 2075,
+      "tokens": [
+        {
+          "id": "l11-t00",
+          "text": "让",
+          "readableFrame": 1896,
+          "sourceSeconds": 63.21,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 1921
+        },
+        {
+          "id": "l11-t01",
+          "text": "想",
+          "readableFrame": 1921,
+          "sourceSeconds": 64.033,
+          "source": "ctc-estimate",
+          "confidence": 0.916,
+          "endFrame": 1929
+        },
+        {
+          "id": "l11-t02",
+          "text": "念",
+          "readableFrame": 1929,
+          "sourceSeconds": 64.313,
+          "source": "ctc-estimate",
+          "confidence": 0.951,
+          "endFrame": 1942
+        },
+        {
+          "id": "l11-t03",
+          "text": "继",
+          "readableFrame": 1942,
+          "sourceSeconds": 64.735,
+          "source": "ctc-estimate",
+          "confidence": 0.914,
+          "endFrame": 1956
+        },
+        {
+          "id": "l11-t04",
+          "text": "续",
+          "readableFrame": 1956,
+          "sourceSeconds": 65.216,
+          "source": "ctc-estimate",
+          "confidence": 0.959,
+          "endFrame": 1974
+        },
+        {
+          "id": "l11-t05",
+          "text": "让",
+          "readableFrame": 1974,
+          "sourceSeconds": 65.797,
+          "source": "ctc-estimate",
+          "confidence": 0.882,
+          "endFrame": 1987
+        },
+        {
+          "id": "l11-t06",
+          "text": "爱",
+          "readableFrame": 1987,
+          "sourceSeconds": 66.239,
+          "source": "ctc-estimate",
+          "confidence": 0.95,
+          "endFrame": 2021
+        },
+        {
+          "id": "l11-t07",
+          "text": "变",
+          "readableFrame": 2021,
+          "sourceSeconds": 67.362,
+          "source": "ctc-estimate",
+          "confidence": 0.944,
+          "endFrame": 2032
+        },
+        {
+          "id": "l11-t08",
+          "text": "透",
+          "readableFrame": 2032,
+          "sourceSeconds": 67.743,
+          "source": "ctc-estimate",
+          "confidence": 0.942,
+          "endFrame": 2048
+        },
+        {
+          "id": "l11-t09",
+          "text": "明",
+          "readableFrame": 2048,
+          "sourceSeconds": 68.264,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 2075
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "我爱上给我勇气的 Rainie Love",
+      "startFrame": 2075,
+      "endFrame": 2250,
+      "tokens": [
+        {
+          "id": "l12-t00",
+          "text": "我",
+          "readableFrame": 2075,
+          "sourceSeconds": 69.173,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 2083
+        },
+        {
+          "id": "l12-t01",
+          "text": "爱",
+          "readableFrame": 2083,
+          "sourceSeconds": 69.433,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 2091
+        },
+        {
+          "id": "l12-t02",
+          "text": "上",
+          "readableFrame": 2091,
+          "sourceSeconds": 69.693,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 2099
+        },
+        {
+          "id": "l12-t03",
+          "text": "给",
+          "readableFrame": 2099,
+          "sourceSeconds": 69.974,
+          "source": "ctc-estimate",
+          "confidence": 0.993,
+          "endFrame": 2110
+        },
+        {
+          "id": "l12-t04",
+          "text": "我",
+          "readableFrame": 2110,
+          "sourceSeconds": 70.335,
+          "source": "ctc-estimate",
+          "confidence": 0.951,
+          "endFrame": 2121
+        },
+        {
+          "id": "l12-t05",
+          "text": "勇",
+          "readableFrame": 2121,
+          "sourceSeconds": 70.715,
+          "source": "ctc-estimate",
+          "confidence": 0.875,
+          "endFrame": 2124
+        },
+        {
+          "id": "l12-t06",
+          "text": "气",
+          "readableFrame": 2124,
+          "sourceSeconds": 70.795,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 2127
+        },
+        {
+          "id": "l12-t07",
+          "text": "的",
+          "readableFrame": 2127,
+          "sourceSeconds": 70.895,
+          "source": "ctc-estimate",
+          "confidence": 0.803,
+          "endFrame": 2146
+        },
+        {
+          "id": "l12-t08",
+          "text": "Rainie",
+          "readableFrame": 2146,
+          "sourceSeconds": 71.525,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 2164
+        },
+        {
+          "id": "l12-t09",
+          "text": "Love",
+          "readableFrame": 2164,
+          "sourceSeconds": 72.137,
+          "source": "ctc-estimate",
+          "confidence": 0.716,
+          "endFrame": 2250
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "窗外的雨滴 一滴滴累积",
+      "startFrame": 2250,
+      "endFrame": 2344,
+      "tokens": [
+        {
+          "id": "l13-t00",
+          "text": "窗",
+          "readableFrame": 2250,
+          "sourceSeconds": 75.006,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 2252
+        },
+        {
+          "id": "l13-t01",
+          "text": "外",
+          "readableFrame": 2252,
+          "sourceSeconds": 75.076,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 2254
+        },
+        {
+          "id": "l13-t02",
+          "text": "的",
+          "readableFrame": 2254,
+          "sourceSeconds": 75.146,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 2257
+        },
+        {
+          "id": "l13-t03",
+          "text": "雨",
+          "readableFrame": 2257,
+          "sourceSeconds": 75.227,
+          "source": "ctc-estimate",
+          "confidence": 0.934,
+          "endFrame": 2268
+        },
+        {
+          "id": "l13-t04",
+          "text": "滴",
+          "readableFrame": 2268,
+          "sourceSeconds": 75.588,
+          "source": "ctc-estimate",
+          "confidence": 0.968,
+          "endFrame": 2286
+        },
+        {
+          "id": "l13-t05",
+          "text": "一",
+          "readableFrame": 2286,
+          "sourceSeconds": 76.189,
+          "source": "ctc-estimate",
+          "confidence": 0.898,
+          "endFrame": 2291
+        },
+        {
+          "id": "l13-t06",
+          "text": "滴",
+          "readableFrame": 2291,
+          "sourceSeconds": 76.369,
+          "source": "ctc-estimate",
+          "confidence": 0.873,
+          "endFrame": 2296
+        },
+        {
+          "id": "l13-t07",
+          "text": "滴",
+          "readableFrame": 2296,
+          "sourceSeconds": 76.53,
+          "source": "ctc-estimate",
+          "confidence": 0.87,
+          "endFrame": 2301
+        },
+        {
+          "id": "l13-t08",
+          "text": "累",
+          "readableFrame": 2301,
+          "sourceSeconds": 76.69,
+          "source": "ctc-estimate",
+          "confidence": 0.846,
+          "endFrame": 2312
+        },
+        {
+          "id": "l13-t09",
+          "text": "积",
+          "readableFrame": 2312,
+          "sourceSeconds": 77.071,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 2344
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "屋内的湿气像储存爱你的记忆",
+      "startFrame": 2344,
+      "endFrame": 2504,
+      "tokens": [
+        {
+          "id": "l14-t00",
+          "text": "屋",
+          "readableFrame": 2344,
+          "sourceSeconds": 78.144,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 2348
+        },
+        {
+          "id": "l14-t01",
+          "text": "内",
+          "readableFrame": 2348,
+          "sourceSeconds": 78.274,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 2352
+        },
+        {
+          "id": "l14-t02",
+          "text": "的",
+          "readableFrame": 2352,
+          "sourceSeconds": 78.404,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 2356
+        },
+        {
+          "id": "l14-t03",
+          "text": "湿",
+          "readableFrame": 2356,
+          "sourceSeconds": 78.546,
+          "source": "ctc-estimate",
+          "confidence": 0.905,
+          "endFrame": 2363
+        },
+        {
+          "id": "l14-t04",
+          "text": "气",
+          "readableFrame": 2363,
+          "sourceSeconds": 78.767,
+          "source": "ctc-estimate",
+          "confidence": 0.932,
+          "endFrame": 2374
+        },
+        {
+          "id": "l14-t05",
+          "text": "像",
+          "readableFrame": 2374,
+          "sourceSeconds": 79.129,
+          "source": "ctc-estimate",
+          "confidence": 0.952,
+          "endFrame": 2387
+        },
+        {
+          "id": "l14-t06",
+          "text": "储",
+          "readableFrame": 2387,
+          "sourceSeconds": 79.55,
+          "source": "ctc-estimate",
+          "confidence": 0.958,
+          "endFrame": 2403
+        },
+        {
+          "id": "l14-t07",
+          "text": "存",
+          "readableFrame": 2403,
+          "sourceSeconds": 80.093,
+          "source": "ctc-estimate",
+          "confidence": 0.948,
+          "endFrame": 2415
+        },
+        {
+          "id": "l14-t08",
+          "text": "爱",
+          "readableFrame": 2415,
+          "sourceSeconds": 80.494,
+          "source": "ctc-estimate",
+          "confidence": 0.948,
+          "endFrame": 2426
+        },
+        {
+          "id": "l14-t09",
+          "text": "你",
+          "readableFrame": 2426,
+          "sourceSeconds": 80.876,
+          "source": "ctc-estimate",
+          "confidence": 0.946,
+          "endFrame": 2438
+        },
+        {
+          "id": "l14-t10",
+          "text": "的",
+          "readableFrame": 2438,
+          "sourceSeconds": 81.257,
+          "source": "ctc-estimate",
+          "confidence": 0.981,
+          "endFrame": 2471
+        },
+        {
+          "id": "l14-t11",
+          "text": "记",
+          "readableFrame": 2471,
+          "sourceSeconds": 82.362,
+          "source": "ctc-estimate",
+          "confidence": 0.908,
+          "endFrame": 2477
+        },
+        {
+          "id": "l14-t12",
+          "text": "忆",
+          "readableFrame": 2477,
+          "sourceSeconds": 82.583,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 2504
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "真希望雨能下不停",
+      "startFrame": 2504,
+      "endFrame": 2614,
+      "tokens": [
+        {
+          "id": "l15-t00",
+          "text": "真",
+          "readableFrame": 2504,
+          "sourceSeconds": 83.483,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 2507
+        },
+        {
+          "id": "l15-t01",
+          "text": "希",
+          "readableFrame": 2507,
+          "sourceSeconds": 83.564,
+          "source": "ctc-estimate",
+          "confidence": 0.922,
+          "endFrame": 2515
+        },
+        {
+          "id": "l15-t02",
+          "text": "望",
+          "readableFrame": 2515,
+          "sourceSeconds": 83.824,
+          "source": "ctc-estimate",
+          "confidence": 0.956,
+          "endFrame": 2529
+        },
+        {
+          "id": "l15-t03",
+          "text": "雨",
+          "readableFrame": 2529,
+          "sourceSeconds": 84.286,
+          "source": "ctc-estimate",
+          "confidence": 0.934,
+          "endFrame": 2538
+        },
+        {
+          "id": "l15-t04",
+          "text": "能",
+          "readableFrame": 2538,
+          "sourceSeconds": 84.586,
+          "source": "ctc-estimate",
+          "confidence": 0.94,
+          "endFrame": 2548
+        },
+        {
+          "id": "l15-t05",
+          "text": "下",
+          "readableFrame": 2548,
+          "sourceSeconds": 84.927,
+          "source": "ctc-estimate",
+          "confidence": 0.953,
+          "endFrame": 2560
+        },
+        {
+          "id": "l15-t06",
+          "text": "不",
+          "readableFrame": 2560,
+          "sourceSeconds": 85.348,
+          "source": "ctc-estimate",
+          "confidence": 0.972,
+          "endFrame": 2582
+        },
+        {
+          "id": "l15-t07",
+          "text": "停",
+          "readableFrame": 2582,
+          "sourceSeconds": 86.07,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 2614
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "雨爱的秘密 能一直延续",
+      "startFrame": 2614,
+      "endFrame": 2795,
+      "tokens": [
+        {
+          "id": "l16-t00",
+          "text": "雨",
+          "readableFrame": 2614,
+          "sourceSeconds": 87.143,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 2632
+        },
+        {
+          "id": "l16-t01",
+          "text": "爱",
+          "readableFrame": 2632,
+          "sourceSeconds": 87.743,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 2650
+        },
+        {
+          "id": "l16-t02",
+          "text": "的",
+          "readableFrame": 2650,
+          "sourceSeconds": 88.328,
+          "source": "ctc-estimate",
+          "confidence": 0.976,
+          "endFrame": 2662
+        },
+        {
+          "id": "l16-t03",
+          "text": "秘",
+          "readableFrame": 2662,
+          "sourceSeconds": 88.73,
+          "source": "ctc-estimate",
+          "confidence": 0.959,
+          "endFrame": 2677
+        },
+        {
+          "id": "l16-t04",
+          "text": "密",
+          "readableFrame": 2677,
+          "sourceSeconds": 89.232,
+          "source": "ctc-estimate",
+          "confidence": 0.926,
+          "endFrame": 2696
+        },
+        {
+          "id": "l16-t05",
+          "text": "能",
+          "readableFrame": 2696,
+          "sourceSeconds": 89.854,
+          "source": "ctc-estimate",
+          "confidence": 0.89,
+          "endFrame": 2709
+        },
+        {
+          "id": "l16-t06",
+          "text": "一",
+          "readableFrame": 2709,
+          "sourceSeconds": 90.296,
+          "source": "ctc-estimate",
+          "confidence": 0.98,
+          "endFrame": 2740
+        },
+        {
+          "id": "l16-t07",
+          "text": "直",
+          "readableFrame": 2740,
+          "sourceSeconds": 91.32,
+          "source": "ctc-estimate",
+          "confidence": 0.92,
+          "endFrame": 2750
+        },
+        {
+          "id": "l16-t08",
+          "text": "延",
+          "readableFrame": 2750,
+          "sourceSeconds": 91.681,
+          "source": "ctc-estimate",
+          "confidence": 0.94,
+          "endFrame": 2768
+        },
+        {
+          "id": "l16-t09",
+          "text": "续",
+          "readableFrame": 2768,
+          "sourceSeconds": 92.263,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 2795
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "我相信我将会看到",
+      "startFrame": 2795,
+      "endFrame": 2895,
+      "tokens": [
+        {
+          "id": "l17-t00",
+          "text": "我",
+          "readableFrame": 2795,
+          "sourceSeconds": 93.153,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 2798
+        },
+        {
+          "id": "l17-t01",
+          "text": "相",
+          "readableFrame": 2798,
+          "sourceSeconds": 93.253,
+          "source": "local-vocal-interpolation",
+          "confidence": null,
+          "endFrame": 2801
+        },
+        {
+          "id": "l17-t02",
+          "text": "信",
+          "readableFrame": 2801,
+          "sourceSeconds": 93.374,
+          "source": "ctc-estimate",
+          "confidence": 0.931,
+          "endFrame": 2816
+        },
+        {
+          "id": "l17-t03",
+          "text": "我",
+          "readableFrame": 2816,
+          "sourceSeconds": 93.875,
+          "source": "ctc-estimate",
+          "confidence": 0.954,
+          "endFrame": 2829
+        },
+        {
+          "id": "l17-t04",
+          "text": "将",
+          "readableFrame": 2829,
+          "sourceSeconds": 94.316,
+          "source": "ctc-estimate",
+          "confidence": 0.988,
+          "endFrame": 2852
+        },
+        {
+          "id": "l17-t05",
+          "text": "会",
+          "readableFrame": 2852,
+          "sourceSeconds": 95.077,
+          "source": "ctc-estimate",
+          "confidence": 0.94,
+          "endFrame": 2863
+        },
+        {
+          "id": "l17-t06",
+          "text": "看",
+          "readableFrame": 2863,
+          "sourceSeconds": 95.418,
+          "source": "ctc-estimate",
+          "confidence": 0.952,
+          "endFrame": 2875
+        },
+        {
+          "id": "l17-t07",
+          "text": "到",
+          "readableFrame": 2875,
+          "sourceSeconds": 95.839,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 2895
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "彩虹的美丽",
+      "startFrame": 2895,
+      "endFrame": 3117,
+      "tokens": [
+        {
+          "id": "l18-t00",
+          "text": "彩",
+          "readableFrame": 2895,
+          "sourceSeconds": 96.507,
+          "source": "lrc",
+          "confidence": null,
+          "endFrame": 2908
+        },
+        {
+          "id": "l18-t01",
+          "text": "虹",
+          "readableFrame": 2908,
+          "sourceSeconds": 96.928,
+          "source": "ctc-estimate",
+          "confidence": 0.974,
+          "endFrame": 2931
+        },
+        {
+          "id": "l18-t02",
+          "text": "的",
+          "readableFrame": 2931,
+          "sourceSeconds": 97.689,
+          "source": "ctc-estimate",
+          "confidence": 0.983,
+          "endFrame": 2952
+        },
+        {
+          "id": "l18-t03",
+          "text": "美",
+          "readableFrame": 2952,
+          "sourceSeconds": 98.39,
+          "source": "ctc-estimate",
+          "confidence": 0.989,
+          "endFrame": 2964
+        },
+        {
+          "id": "l18-t04",
+          "text": "丽",
+          "readableFrame": 2964,
+          "sourceSeconds": 98.791,
+          "source": "adjacent-boundary-estimate",
+          "confidence": null,
+          "endFrame": 3117
+        }
+      ]
+    }
+  ],
+  "humanListening": false
+}

@@ -1,0 +1,23 @@
+import assert from 'node:assert/strict';
+import {spawnSync} from 'node:child_process';
+import {readFileSync,writeFileSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const preview=process.argv.includes('--preview');
+const target=path.join(root,'out/v2',preview?'雨爱-V2-25秒样段-含音乐.mp4':'雨爱-V2-精绘逐字-1080p-无声.mp4');
+const result=spawnSync('ffprobe',['-v','error','-count_frames','-show_streams','-show_format','-of','json',target],{encoding:'utf8'});
+if(result.status!==0)throw new Error(result.stderr);
+const metadata=JSON.parse(result.stdout);
+const video=metadata.streams.find(s=>s.codec_type==='video');
+assert.ok(video);
+assert.equal(video.codec_name,'h264');assert.equal(video.pix_fmt,'yuv420p');
+assert.equal(video.color_range,'tv');
+for(const property of ['color_space','color_transfer','color_primaries'])assert.equal(video[property],'bt709');
+assert.equal(video.width,1920);assert.equal(video.height,1080);assert.equal(video.avg_frame_rate,'30/1');
+assert.equal(Number(video.nb_read_frames),preview?750:3729);
+assert.ok(Math.abs(Number(video.duration)-(preview?25:124.3))<.001);
+assert.equal(metadata.streams.filter(s=>s.codec_type==='audio').length,preview?1:0);
+if(!preview){assert.equal(metadata.streams.length,1);assert.ok(Number(video.duration)<124.322);}
+writeFileSync(path.join(root,'out/v2',preview?'preview-video-verification.json':'verification.json'),JSON.stringify({status:'passed',metadata},null,2));
+console.log(`Verified ${preview?'review with reference music':'silent film'}: H.264, yuv420p, Rec.709, 1080p, 30fps, ${video.nb_read_frames} frames.`);

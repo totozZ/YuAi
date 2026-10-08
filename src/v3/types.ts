@@ -1,0 +1,9 @@
+export type Weight='light'|'regular'|'bold';
+export type CueToken={id:string;text:string;readableFrame:number;sourceSeconds:number;source:string;confidence:number|null;endFrame:number};
+export type CueLine={id:number;text:string;startFrame:number;endFrame:number;tokens:CueToken[]};
+export type Timing={version:number;fps:number;durationInFrames:number;audioOffsetFrames:number;sourceAudioSha256:string;lines:CueLine[];humanListening:boolean};
+export type MusicEvent={id:string;type:string;frame:number;strength:number;target:string;source:string};
+export type Overrides={visualOffsetFrames:number;lineOffsetFrames:Record<string,number>;tokenReadFrames:Record<string,number>;eventFrames:Record<string,number>};
+export type Pose={x:number;y:number;scale:number;rotation:number;opacity:number;blur:number;depth:number;tilt:number;anchorX:number;anchorY:number;tracking:number};
+export type Placement={index:number;x:number;y:number;size:number;weight:Weight;rotation:number;tracking:number};
+export type Direction={id:number;world:[number,number];rotation:number;layout:string;entry:string;handoff:string;key:string;bridge:'window'|'rain'|'ring'|'rail'|'grid'|'spectrum';intensity:number;lead:number};

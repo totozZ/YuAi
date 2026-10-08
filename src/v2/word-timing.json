@@ -1,0 +1,1545 @@
+{
+  "version": 2,
+  "fps": 30,
+  "durationInFrames": 3729,
+  "sourceAudioSha256": "d538acd1969921a0ba76e102c89c8e617e3c6922defc4825910936d1ea9bedf7",
+  "audioOffsetFrames": 0,
+  "vocalSeparated": true,
+  "lines": [
+    {
+      "id": 0,
+      "text": "窗外的天气",
+      "startFrame": 489,
+      "endFrame": 621,
+      "vocalEndSeconds": 20.54,
+      "tokens": [
+        {
+          "text": "窗",
+          "sourceStart": 16.286,
+          "startFrame": 489,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 502
+        },
+        {
+          "text": "外",
+          "sourceStart": 16.746,
+          "startFrame": 502,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 516
+        },
+        {
+          "text": "的",
+          "sourceStart": 17.216,
+          "startFrame": 516,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 531
+        },
+        {
+          "text": "天",
+          "sourceStart": 17.686,
+          "startFrame": 531,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 544
+        },
+        {
+          "text": "气",
+          "sourceStart": 18.146,
+          "startFrame": 544,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 621
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 18.152,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 1,
+      "text": "就像是 你多变的表情",
+      "startFrame": 621,
+      "endFrame": 794,
+      "vocalEndSeconds": 26.3067,
+      "tokens": [
+        {
+          "text": "就",
+          "sourceStart": 20.706,
+          "startFrame": 621,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 631
+        },
+        {
+          "text": "像",
+          "sourceStart": 21.046,
+          "startFrame": 631,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 642
+        },
+        {
+          "text": "是",
+          "sourceStart": 21.386,
+          "startFrame": 642,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 652
+        },
+        {
+          "text": "你",
+          "sourceStart": 21.726,
+          "startFrame": 652,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 662
+        },
+        {
+          "text": "多",
+          "sourceStart": 22.076,
+          "startFrame": 662,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 686
+        },
+        {
+          "text": "变",
+          "sourceStart": 22.876,
+          "startFrame": 686,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 696
+        },
+        {
+          "text": "的",
+          "sourceStart": 23.216,
+          "startFrame": 696,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 707
+        },
+        {
+          "text": "表",
+          "sourceStart": 23.556,
+          "startFrame": 707,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 717
+        },
+        {
+          "text": "情",
+          "sourceStart": 23.896,
+          "startFrame": 717,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 794
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 23.898,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 2,
+      "text": "下雨了 雨陪我哭泣",
+      "startFrame": 794,
+      "endFrame": 985,
+      "vocalEndSeconds": 32.6733,
+      "tokens": [
+        {
+          "text": "下",
+          "sourceStart": 26.454,
+          "startFrame": 794,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 806
+        },
+        {
+          "text": "雨",
+          "sourceStart": 26.874,
+          "startFrame": 806,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 832
+        },
+        {
+          "text": "了",
+          "sourceStart": 27.744,
+          "startFrame": 832,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 851
+        },
+        {
+          "text": "雨",
+          "sourceStart": 28.374,
+          "startFrame": 851,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 864
+        },
+        {
+          "text": "陪",
+          "sourceStart": 28.794,
+          "startFrame": 864,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 877
+        },
+        {
+          "text": "我",
+          "sourceStart": 29.224,
+          "startFrame": 877,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 889
+        },
+        {
+          "text": "哭",
+          "sourceStart": 29.644,
+          "startFrame": 889,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 902
+        },
+        {
+          "text": "泣",
+          "sourceStart": 30.064,
+          "startFrame": 902,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 985
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 30.065,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 3,
+      "text": "看不清 我也不想看清",
+      "startFrame": 985,
+      "endFrame": 1152,
+      "vocalEndSeconds": 38.24,
+      "tokens": [
+        {
+          "text": "看",
+          "sourceStart": 32.824,
+          "startFrame": 985,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 999
+        },
+        {
+          "text": "不",
+          "sourceStart": 33.314,
+          "startFrame": 999,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1014
+        },
+        {
+          "text": "清",
+          "sourceStart": 33.814,
+          "startFrame": 1014,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1047
+        },
+        {
+          "text": "我",
+          "sourceStart": 34.894,
+          "startFrame": 1047,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1062
+        },
+        {
+          "text": "也",
+          "sourceStart": 35.394,
+          "startFrame": 1062,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1077
+        },
+        {
+          "text": "不",
+          "sourceStart": 35.894,
+          "startFrame": 1077,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1092
+        },
+        {
+          "text": "想",
+          "sourceStart": 36.394,
+          "startFrame": 1092,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1107
+        },
+        {
+          "text": "看",
+          "sourceStart": 36.894,
+          "startFrame": 1107,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1122
+        },
+        {
+          "text": "清",
+          "sourceStart": 37.394,
+          "startFrame": 1122,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1152
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": null,
+      "sustainHintSource": null
+    },
+    {
+      "id": 4,
+      "text": "离开你 我安静的抽离",
+      "startFrame": 1152,
+      "endFrame": 1266,
+      "vocalEndSeconds": 42.04,
+      "tokens": [
+        {
+          "text": "离",
+          "sourceStart": 38.411,
+          "startFrame": 1152,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1162
+        },
+        {
+          "text": "开",
+          "sourceStart": 38.741,
+          "startFrame": 1162,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1172
+        },
+        {
+          "text": "你",
+          "sourceStart": 39.081,
+          "startFrame": 1172,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1183
+        },
+        {
+          "text": "我",
+          "sourceStart": 39.421,
+          "startFrame": 1183,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1193
+        },
+        {
+          "text": "安",
+          "sourceStart": 39.761,
+          "startFrame": 1193,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1203
+        },
+        {
+          "text": "静",
+          "sourceStart": 40.101,
+          "startFrame": 1203,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1213
+        },
+        {
+          "text": "的",
+          "sourceStart": 40.441,
+          "startFrame": 1213,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1223
+        },
+        {
+          "text": "抽",
+          "sourceStart": 40.781,
+          "startFrame": 1223,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1233
+        },
+        {
+          "text": "离",
+          "sourceStart": 41.111,
+          "startFrame": 1233,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1266
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 41.118,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 5,
+      "text": "不忍揭晓的剧情",
+      "startFrame": 1266,
+      "endFrame": 1354,
+      "vocalEndSeconds": 44.9733,
+      "tokens": [
+        {
+          "text": "不",
+          "sourceStart": 42.188,
+          "startFrame": 1266,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1273
+        },
+        {
+          "text": "忍",
+          "sourceStart": 42.438,
+          "startFrame": 1273,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1281
+        },
+        {
+          "text": "揭",
+          "sourceStart": 42.698,
+          "startFrame": 1281,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1289
+        },
+        {
+          "text": "晓",
+          "sourceStart": 42.958,
+          "startFrame": 1289,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1297
+        },
+        {
+          "text": "的",
+          "sourceStart": 43.218,
+          "startFrame": 1297,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1304
+        },
+        {
+          "text": "剧",
+          "sourceStart": 43.478,
+          "startFrame": 1304,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1312
+        },
+        {
+          "text": "情",
+          "sourceStart": 43.728,
+          "startFrame": 1312,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1354
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 43.731,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 6,
+      "text": "我的泪流在心里",
+      "startFrame": 1354,
+      "endFrame": 1444,
+      "vocalEndSeconds": 47.9733,
+      "tokens": [
+        {
+          "text": "我",
+          "sourceStart": 45.138,
+          "startFrame": 1354,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1364
+        },
+        {
+          "text": "的",
+          "sourceStart": 45.458,
+          "startFrame": 1364,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1373
+        },
+        {
+          "text": "泪",
+          "sourceStart": 45.778,
+          "startFrame": 1373,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1383
+        },
+        {
+          "text": "流",
+          "sourceStart": 46.108,
+          "startFrame": 1383,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1393
+        },
+        {
+          "text": "在",
+          "sourceStart": 46.428,
+          "startFrame": 1393,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1402
+        },
+        {
+          "text": "心",
+          "sourceStart": 46.748,
+          "startFrame": 1402,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1412
+        },
+        {
+          "text": "里",
+          "sourceStart": 47.068,
+          "startFrame": 1412,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1444
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 47.068,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 7,
+      "text": "学会放弃",
+      "startFrame": 1444,
+      "endFrame": 1528,
+      "vocalEndSeconds": 50.7733,
+      "tokens": [
+        {
+          "text": "学",
+          "sourceStart": 48.145,
+          "startFrame": 1444,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1456
+        },
+        {
+          "text": "会",
+          "sourceStart": 48.535,
+          "startFrame": 1456,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1468
+        },
+        {
+          "text": "放",
+          "sourceStart": 48.935,
+          "startFrame": 1468,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1480
+        },
+        {
+          "text": "弃",
+          "sourceStart": 49.325,
+          "startFrame": 1480,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1528
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 49.329,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 8,
+      "text": "听雨的声音 一滴滴清晰",
+      "startFrame": 1528,
+      "endFrame": 1623,
+      "vocalEndSeconds": 53.94,
+      "tokens": [
+        {
+          "text": "听",
+          "sourceStart": 50.943,
+          "startFrame": 1528,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1535
+        },
+        {
+          "text": "雨",
+          "sourceStart": 51.173,
+          "startFrame": 1535,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1542
+        },
+        {
+          "text": "的",
+          "sourceStart": 51.413,
+          "startFrame": 1542,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1550
+        },
+        {
+          "text": "声",
+          "sourceStart": 51.653,
+          "startFrame": 1550,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1557
+        },
+        {
+          "text": "音",
+          "sourceStart": 51.893,
+          "startFrame": 1557,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1564
+        },
+        {
+          "text": "一",
+          "sourceStart": 52.123,
+          "startFrame": 1564,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1571
+        },
+        {
+          "text": "滴",
+          "sourceStart": 52.363,
+          "startFrame": 1571,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1578
+        },
+        {
+          "text": "滴",
+          "sourceStart": 52.603,
+          "startFrame": 1578,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1585
+        },
+        {
+          "text": "清",
+          "sourceStart": 52.843,
+          "startFrame": 1585,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1592
+        },
+        {
+          "text": "晰",
+          "sourceStart": 53.073,
+          "startFrame": 1592,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1623
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 53.075,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 9,
+      "text": "你的呼吸像雨滴渗入我的爱里",
+      "startFrame": 1623,
+      "endFrame": 1782,
+      "vocalEndSeconds": 59.24,
+      "tokens": [
+        {
+          "text": "你",
+          "sourceStart": 54.109,
+          "startFrame": 1623,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1633
+        },
+        {
+          "text": "的",
+          "sourceStart": 54.419,
+          "startFrame": 1633,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1642
+        },
+        {
+          "text": "呼",
+          "sourceStart": 54.739,
+          "startFrame": 1642,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1651
+        },
+        {
+          "text": "吸",
+          "sourceStart": 55.049,
+          "startFrame": 1651,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1661
+        },
+        {
+          "text": "像",
+          "sourceStart": 55.369,
+          "startFrame": 1661,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1670
+        },
+        {
+          "text": "雨",
+          "sourceStart": 55.679,
+          "startFrame": 1670,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1680
+        },
+        {
+          "text": "滴",
+          "sourceStart": 55.999,
+          "startFrame": 1680,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1690
+        },
+        {
+          "text": "渗",
+          "sourceStart": 56.319,
+          "startFrame": 1690,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1699
+        },
+        {
+          "text": "入",
+          "sourceStart": 56.629,
+          "startFrame": 1699,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1708
+        },
+        {
+          "text": "我",
+          "sourceStart": 56.949,
+          "startFrame": 1708,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1718
+        },
+        {
+          "text": "的",
+          "sourceStart": 57.259,
+          "startFrame": 1718,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1727
+        },
+        {
+          "text": "爱",
+          "sourceStart": 57.579,
+          "startFrame": 1727,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1737
+        },
+        {
+          "text": "里",
+          "sourceStart": 57.889,
+          "startFrame": 1737,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1782
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 57.897,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 10,
+      "text": "真希望雨能下不停",
+      "startFrame": 1782,
+      "endFrame": 1896,
+      "vocalEndSeconds": 63.04,
+      "tokens": [
+        {
+          "text": "真",
+          "sourceStart": 59.402,
+          "startFrame": 1782,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1793
+        },
+        {
+          "text": "希",
+          "sourceStart": 59.782,
+          "startFrame": 1793,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1805
+        },
+        {
+          "text": "望",
+          "sourceStart": 60.162,
+          "startFrame": 1805,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1816
+        },
+        {
+          "text": "雨",
+          "sourceStart": 60.542,
+          "startFrame": 1816,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1828
+        },
+        {
+          "text": "能",
+          "sourceStart": 60.932,
+          "startFrame": 1828,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1839
+        },
+        {
+          "text": "下",
+          "sourceStart": 61.312,
+          "startFrame": 1839,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1851
+        },
+        {
+          "text": "不",
+          "sourceStart": 61.692,
+          "startFrame": 1851,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1862
+        },
+        {
+          "text": "停",
+          "sourceStart": 62.072,
+          "startFrame": 1862,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1896
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 62.075,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 11,
+      "text": "让想念继续 让爱变透明",
+      "startFrame": 1896,
+      "endFrame": 2075,
+      "vocalEndSeconds": 69.0067,
+      "tokens": [
+        {
+          "text": "让",
+          "sourceStart": 63.21,
+          "startFrame": 1896,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1913
+        },
+        {
+          "text": "想",
+          "sourceStart": 63.77,
+          "startFrame": 1913,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1930
+        },
+        {
+          "text": "念",
+          "sourceStart": 64.33,
+          "startFrame": 1930,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1947
+        },
+        {
+          "text": "继",
+          "sourceStart": 64.89,
+          "startFrame": 1947,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1964
+        },
+        {
+          "text": "续",
+          "sourceStart": 65.45,
+          "startFrame": 1964,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1981
+        },
+        {
+          "text": "让",
+          "sourceStart": 66.02,
+          "startFrame": 1981,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 1997
+        },
+        {
+          "text": "爱",
+          "sourceStart": 66.58,
+          "startFrame": 1997,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2014
+        },
+        {
+          "text": "变",
+          "sourceStart": 67.14,
+          "startFrame": 2014,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2031
+        },
+        {
+          "text": "透",
+          "sourceStart": 67.7,
+          "startFrame": 2031,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2048
+        },
+        {
+          "text": "明",
+          "sourceStart": 68.26,
+          "startFrame": 2048,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2075
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 68.264,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 12,
+      "text": "我爱上给我勇气的 Rainie Love",
+      "startFrame": 2075,
+      "endFrame": 2250,
+      "vocalEndSeconds": 74.84,
+      "tokens": [
+        {
+          "text": "我",
+          "sourceStart": 69.173,
+          "startFrame": 2075,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2091
+        },
+        {
+          "text": "爱",
+          "sourceStart": 69.713,
+          "startFrame": 2091,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2108
+        },
+        {
+          "text": "上",
+          "sourceStart": 70.253,
+          "startFrame": 2108,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2124
+        },
+        {
+          "text": "给",
+          "sourceStart": 70.793,
+          "startFrame": 2124,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2140
+        },
+        {
+          "text": "我",
+          "sourceStart": 71.343,
+          "startFrame": 2140,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2156
+        },
+        {
+          "text": "勇",
+          "sourceStart": 71.883,
+          "startFrame": 2156,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2173
+        },
+        {
+          "text": "气",
+          "sourceStart": 72.423,
+          "startFrame": 2173,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2189
+        },
+        {
+          "text": "的",
+          "sourceStart": 72.973,
+          "startFrame": 2189,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2205
+        },
+        {
+          "text": "Rainie",
+          "sourceStart": 73.513,
+          "startFrame": 2205,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2222
+        },
+        {
+          "text": "Love",
+          "sourceStart": 74.053,
+          "startFrame": 2222,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2250
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": null,
+      "sustainHintSource": null
+    },
+    {
+      "id": 13,
+      "text": "窗外的雨滴 一滴滴累积",
+      "startFrame": 2250,
+      "endFrame": 2344,
+      "vocalEndSeconds": 77.9733,
+      "tokens": [
+        {
+          "text": "窗",
+          "sourceStart": 75.006,
+          "startFrame": 2250,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2257
+        },
+        {
+          "text": "外",
+          "sourceStart": 75.236,
+          "startFrame": 2257,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2264
+        },
+        {
+          "text": "的",
+          "sourceStart": 75.466,
+          "startFrame": 2264,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2271
+        },
+        {
+          "text": "雨",
+          "sourceStart": 75.696,
+          "startFrame": 2271,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2278
+        },
+        {
+          "text": "滴",
+          "sourceStart": 75.926,
+          "startFrame": 2278,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2285
+        },
+        {
+          "text": "一",
+          "sourceStart": 76.156,
+          "startFrame": 2285,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2292
+        },
+        {
+          "text": "滴",
+          "sourceStart": 76.386,
+          "startFrame": 2292,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2298
+        },
+        {
+          "text": "滴",
+          "sourceStart": 76.616,
+          "startFrame": 2298,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2305
+        },
+        {
+          "text": "累",
+          "sourceStart": 76.846,
+          "startFrame": 2305,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2312
+        },
+        {
+          "text": "积",
+          "sourceStart": 77.066,
+          "startFrame": 2312,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2344
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 77.071,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 14,
+      "text": "屋内的湿气像储存爱你的记忆",
+      "startFrame": 2344,
+      "endFrame": 2504,
+      "vocalEndSeconds": 83.3067,
+      "tokens": [
+        {
+          "text": "屋",
+          "sourceStart": 78.144,
+          "startFrame": 2344,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2355
+        },
+        {
+          "text": "内",
+          "sourceStart": 78.514,
+          "startFrame": 2355,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2367
+        },
+        {
+          "text": "的",
+          "sourceStart": 78.884,
+          "startFrame": 2367,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2378
+        },
+        {
+          "text": "湿",
+          "sourceStart": 79.254,
+          "startFrame": 2378,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2389
+        },
+        {
+          "text": "气",
+          "sourceStart": 79.624,
+          "startFrame": 2389,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2400
+        },
+        {
+          "text": "像",
+          "sourceStart": 79.994,
+          "startFrame": 2400,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2411
+        },
+        {
+          "text": "储",
+          "sourceStart": 80.364,
+          "startFrame": 2411,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2422
+        },
+        {
+          "text": "存",
+          "sourceStart": 80.734,
+          "startFrame": 2422,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2433
+        },
+        {
+          "text": "爱",
+          "sourceStart": 81.104,
+          "startFrame": 2433,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2444
+        },
+        {
+          "text": "你",
+          "sourceStart": 81.474,
+          "startFrame": 2444,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2455
+        },
+        {
+          "text": "的",
+          "sourceStart": 81.844,
+          "startFrame": 2455,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2466
+        },
+        {
+          "text": "记",
+          "sourceStart": 82.214,
+          "startFrame": 2466,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2477
+        },
+        {
+          "text": "忆",
+          "sourceStart": 82.574,
+          "startFrame": 2477,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2504
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 82.583,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 15,
+      "text": "真希望雨能下不停",
+      "startFrame": 2504,
+      "endFrame": 2614,
+      "vocalEndSeconds": 86.9733,
+      "tokens": [
+        {
+          "text": "真",
+          "sourceStart": 83.483,
+          "startFrame": 2504,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2516
+        },
+        {
+          "text": "希",
+          "sourceStart": 83.853,
+          "startFrame": 2516,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2527
+        },
+        {
+          "text": "望",
+          "sourceStart": 84.223,
+          "startFrame": 2527,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2538
+        },
+        {
+          "text": "雨",
+          "sourceStart": 84.593,
+          "startFrame": 2538,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2549
+        },
+        {
+          "text": "能",
+          "sourceStart": 84.963,
+          "startFrame": 2549,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2560
+        },
+        {
+          "text": "下",
+          "sourceStart": 85.333,
+          "startFrame": 2560,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2571
+        },
+        {
+          "text": "不",
+          "sourceStart": 85.703,
+          "startFrame": 2571,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2582
+        },
+        {
+          "text": "停",
+          "sourceStart": 86.063,
+          "startFrame": 2582,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2614
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 86.07,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 16,
+      "text": "雨爱的秘密 能一直延续",
+      "startFrame": 2614,
+      "endFrame": 2795,
+      "vocalEndSeconds": 93.0067,
+      "tokens": [
+        {
+          "text": "雨",
+          "sourceStart": 87.143,
+          "startFrame": 2614,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2631
+        },
+        {
+          "text": "爱",
+          "sourceStart": 87.693,
+          "startFrame": 2631,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2648
+        },
+        {
+          "text": "的",
+          "sourceStart": 88.253,
+          "startFrame": 2648,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2664
+        },
+        {
+          "text": "秘",
+          "sourceStart": 88.813,
+          "startFrame": 2664,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2681
+        },
+        {
+          "text": "密",
+          "sourceStart": 89.373,
+          "startFrame": 2681,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2701
+        },
+        {
+          "text": "能",
+          "sourceStart": 90.033,
+          "startFrame": 2701,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2718
+        },
+        {
+          "text": "一",
+          "sourceStart": 90.593,
+          "startFrame": 2718,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2735
+        },
+        {
+          "text": "直",
+          "sourceStart": 91.153,
+          "startFrame": 2735,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2751
+        },
+        {
+          "text": "延",
+          "sourceStart": 91.713,
+          "startFrame": 2751,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2768
+        },
+        {
+          "text": "续",
+          "sourceStart": 92.263,
+          "startFrame": 2768,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2795
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 92.263,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 17,
+      "text": "我相信我将会看到",
+      "startFrame": 2795,
+      "endFrame": 2895,
+      "vocalEndSeconds": 96.34,
+      "tokens": [
+        {
+          "text": "我",
+          "sourceStart": 93.153,
+          "startFrame": 2795,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2806
+        },
+        {
+          "text": "相",
+          "sourceStart": 93.533,
+          "startFrame": 2806,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2817
+        },
+        {
+          "text": "信",
+          "sourceStart": 93.913,
+          "startFrame": 2817,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2829
+        },
+        {
+          "text": "我",
+          "sourceStart": 94.303,
+          "startFrame": 2829,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2840
+        },
+        {
+          "text": "将",
+          "sourceStart": 94.683,
+          "startFrame": 2840,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2852
+        },
+        {
+          "text": "会",
+          "sourceStart": 95.073,
+          "startFrame": 2852,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2864
+        },
+        {
+          "text": "看",
+          "sourceStart": 95.453,
+          "startFrame": 2864,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2875
+        },
+        {
+          "text": "到",
+          "sourceStart": 95.833,
+          "startFrame": 2875,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2895
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 95.839,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    },
+    {
+      "id": 18,
+      "text": "彩虹的美丽",
+      "startFrame": 2895,
+      "endFrame": 3117,
+      "vocalEndSeconds": 101.637,
+      "tokens": [
+        {
+          "text": "彩",
+          "sourceStart": 96.507,
+          "startFrame": 2895,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2912
+        },
+        {
+          "text": "虹",
+          "sourceStart": 97.077,
+          "startFrame": 2912,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2929
+        },
+        {
+          "text": "的",
+          "sourceStart": 97.647,
+          "startFrame": 2929,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2947
+        },
+        {
+          "text": "美",
+          "sourceStart": 98.217,
+          "startFrame": 2947,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 2964
+        },
+        {
+          "text": "丽",
+          "sourceStart": 98.787,
+          "startFrame": 2964,
+          "method": "voiced-window-uniform",
+          "confidence": null,
+          "endFrame": 3117
+        }
+      ],
+      "fallbackReason": "low confidence",
+      "estimatedSustainStart": 98.791,
+      "sustainHintSource": "adjacent-confident-CTC-boundary-estimate"
+    }
+  ],
+  "errors": [],
+  "model": "WhisperX Chinese wav2vec2 CTC",
+  "humanListening": false
+}

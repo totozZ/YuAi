@@ -1,0 +1,31 @@
+export type SceneKind = 'window' | 'street' | 'silhouette' | 'rain' | 'memory' | 'rainbow' | 'solo';
+export type TextEffect = 'window' | 'fall' | 'focus' | 'depart' | 'ripple' | 'release' | 'rain' | 'breathe' | 'transparent' | 'bloom' | 'accumulate' | 'memory' | 'continue' | 'open' | 'arc';
+export type LyricCue = {
+  id: number;
+  text: string;
+  phrases: string[];
+  sourceSeconds: number;
+  startFrame: number;
+  endFrame: number;
+  effect: TextEffect;
+  anchor: [number, number];
+  fontSize: number;
+};
+export type SceneCue = {kind: SceneKind; startFrame: number; endFrame: number};
+export type BeatCue = {frame: number; seconds: number; strength: number};
+export type Timeline = {
+  fps: number;
+  width: number;
+  height: number;
+  durationInFrames: number;
+  audioFile: string;
+  sourceAudio: string;
+  audioSha256: string;
+  visualOffsetFrames: number;
+  lyricClearFrame: number;
+  nextVocalSeconds: number;
+  beatAnalysis: {method: string; status: string};
+  lyrics: LyricCue[];
+  scenes: SceneCue[];
+  beats: BeatCue[];
+};

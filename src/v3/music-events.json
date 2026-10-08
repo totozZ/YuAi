@@ -1,0 +1,490 @@
+[
+  {
+    "id": "section-intro",
+    "type": "section",
+    "frame": 0,
+    "strength": 0.15,
+    "target": "world",
+    "source": "lrc-structure"
+  },
+  {
+    "id": "section-verse",
+    "type": "section",
+    "frame": 489,
+    "strength": 0.25,
+    "target": "world",
+    "source": "lrc-structure"
+  },
+  {
+    "id": "accent-0",
+    "type": "vocal-accent",
+    "frame": 524,
+    "strength": 0.25,
+    "target": "l00-t03",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "accent-1",
+    "type": "vocal-accent",
+    "frame": 704,
+    "strength": 0.25,
+    "target": "l01-t07",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "accent-2",
+    "type": "vocal-accent",
+    "frame": 798,
+    "strength": 0.25,
+    "target": "l02-t01",
+    "source": "local-vocal-interpolation"
+  },
+  {
+    "id": "accent-3",
+    "type": "vocal-accent",
+    "frame": 1078,
+    "strength": 0.25,
+    "target": "l03-t05",
+    "source": "local-vocal-interpolation"
+  },
+  {
+    "id": "accent-4",
+    "type": "vocal-accent",
+    "frame": 1215,
+    "strength": 0.25,
+    "target": "l04-t07",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "accent-5",
+    "type": "vocal-accent",
+    "frame": 1305,
+    "strength": 0.25,
+    "target": "l05-t05",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "section-build",
+    "type": "section",
+    "frame": 1354,
+    "strength": 0.5,
+    "target": "world",
+    "source": "lrc-structure"
+  },
+  {
+    "id": "accent-6",
+    "type": "vocal-accent",
+    "frame": 1368,
+    "strength": 0.45,
+    "target": "l06-t02",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "beat-6-0",
+    "type": "beat",
+    "frame": 1379,
+    "strength": 1,
+    "target": "bridge-6",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "beat-7-0",
+    "type": "beat",
+    "frame": 1458,
+    "strength": 1,
+    "target": "bridge-7",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "accent-7",
+    "type": "vocal-accent",
+    "frame": 1468,
+    "strength": 0.45,
+    "target": "l07-t02",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "cut-8",
+    "type": "match-cut",
+    "frame": 1528,
+    "strength": 0.674,
+    "target": "bridge-7",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "section-chorus-a",
+    "type": "section",
+    "frame": 1528,
+    "strength": 0.85,
+    "target": "world",
+    "source": "lrc-structure"
+  },
+  {
+    "id": "beat-8-0",
+    "type": "beat",
+    "frame": 1559,
+    "strength": 1,
+    "target": "bridge-8",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "accent-8",
+    "type": "vocal-accent",
+    "frame": 1581,
+    "strength": 0.8,
+    "target": "l08-t08",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "beat-8-1",
+    "type": "beat",
+    "frame": 1604,
+    "strength": 1,
+    "target": "bridge-8",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "accent-9",
+    "type": "vocal-accent",
+    "frame": 1632,
+    "strength": 0.8,
+    "target": "l09-t02",
+    "source": "local-vocal-interpolation"
+  },
+  {
+    "id": "beat-9-0",
+    "type": "beat",
+    "frame": 1649,
+    "strength": 1,
+    "target": "bridge-9",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "beat-9-1",
+    "type": "beat",
+    "frame": 1717,
+    "strength": 1,
+    "target": "bridge-9",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "beat-10-0",
+    "type": "beat",
+    "frame": 1807,
+    "strength": 1,
+    "target": "bridge-10",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "beat-10-1",
+    "type": "beat",
+    "frame": 1829,
+    "strength": 1,
+    "target": "bridge-10",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "accent-10",
+    "type": "vocal-accent",
+    "frame": 1841,
+    "strength": 0.8,
+    "target": "l10-t06",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "beat-11-0",
+    "type": "beat",
+    "frame": 1919,
+    "strength": 1,
+    "target": "bridge-11",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "beat-11-1",
+    "type": "beat",
+    "frame": 1953,
+    "strength": 1,
+    "target": "bridge-11",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "accent-11",
+    "type": "vocal-accent",
+    "frame": 2032,
+    "strength": 0.8,
+    "target": "l11-t08",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "beat-12-0",
+    "type": "beat",
+    "frame": 2099,
+    "strength": 1,
+    "target": "bridge-12",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "accent-12",
+    "type": "vocal-accent",
+    "frame": 2121,
+    "strength": 0.8,
+    "target": "l12-t05",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "beat-12-1",
+    "type": "beat",
+    "frame": 2133,
+    "strength": 1,
+    "target": "bridge-12",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "section-chorus-b",
+    "type": "section",
+    "frame": 2250,
+    "strength": 0.95,
+    "target": "world",
+    "source": "lrc-structure"
+  },
+  {
+    "id": "cut-13",
+    "type": "match-cut",
+    "frame": 2253,
+    "strength": 0.6145,
+    "target": "bridge-12",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "beat-13-0",
+    "type": "beat",
+    "frame": 2279,
+    "strength": 1,
+    "target": "bridge-13",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "accent-13",
+    "type": "vocal-accent",
+    "frame": 2301,
+    "strength": 0.8,
+    "target": "l13-t08",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "beat-13-1",
+    "type": "beat",
+    "frame": 2313,
+    "strength": 1,
+    "target": "bridge-13",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "beat-14-0",
+    "type": "beat",
+    "frame": 2369,
+    "strength": 1,
+    "target": "bridge-14",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "beat-14-1",
+    "type": "beat",
+    "frame": 2414,
+    "strength": 1,
+    "target": "bridge-14",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "accent-14",
+    "type": "vocal-accent",
+    "frame": 2471,
+    "strength": 0.8,
+    "target": "l14-t11",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "beat-15-0",
+    "type": "beat",
+    "frame": 2527,
+    "strength": 1,
+    "target": "bridge-15",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "beat-15-1",
+    "type": "beat",
+    "frame": 2549,
+    "strength": 1,
+    "target": "bridge-15",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "accent-15",
+    "type": "vocal-accent",
+    "frame": 2560,
+    "strength": 0.8,
+    "target": "l15-t06",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "beat-16-0",
+    "type": "beat",
+    "frame": 2639,
+    "strength": 1,
+    "target": "bridge-16",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "beat-16-1",
+    "type": "beat",
+    "frame": 2662,
+    "strength": 1,
+    "target": "bridge-16",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "accent-16",
+    "type": "vocal-accent",
+    "frame": 2750,
+    "strength": 0.8,
+    "target": "l16-t08",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "section-hope",
+    "type": "section",
+    "frame": 2795,
+    "strength": 0.65,
+    "target": "world",
+    "source": "lrc-structure"
+  },
+  {
+    "id": "accent-17",
+    "type": "vocal-accent",
+    "frame": 2798,
+    "strength": 0.8,
+    "target": "l17-t01",
+    "source": "local-vocal-interpolation"
+  },
+  {
+    "id": "beat-17-0",
+    "type": "beat",
+    "frame": 2819,
+    "strength": 1,
+    "target": "bridge-17",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "beat-17-1",
+    "type": "beat",
+    "frame": 2831,
+    "strength": 1,
+    "target": "bridge-17",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "beat-18-0",
+    "type": "beat",
+    "frame": 2915,
+    "strength": 1,
+    "target": "bridge-18",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "accent-18",
+    "type": "vocal-accent",
+    "frame": 2952,
+    "strength": 0.8,
+    "target": "l18-t03",
+    "source": "ctc-estimate"
+  },
+  {
+    "id": "beat-18-1",
+    "type": "beat",
+    "frame": 2954,
+    "strength": 1,
+    "target": "bridge-18",
+    "source": "drum-stem-onset"
+  },
+  {
+    "id": "section-solo",
+    "type": "section",
+    "frame": 3117,
+    "strength": 0.55,
+    "target": "world",
+    "source": "lrc-structure"
+  },
+  {
+    "id": "solo-0",
+    "type": "instrumental",
+    "frame": 3134,
+    "strength": 1,
+    "target": "spectrum-from-rainbow",
+    "source": "mix-spectral-onset"
+  },
+  {
+    "id": "solo-1",
+    "type": "instrumental",
+    "frame": 3179,
+    "strength": 1,
+    "target": "spectrum-from-rainbow",
+    "source": "mix-spectral-onset"
+  },
+  {
+    "id": "solo-2",
+    "type": "instrumental",
+    "frame": 3224,
+    "strength": 1,
+    "target": "spectrum-from-rainbow",
+    "source": "mix-spectral-onset"
+  },
+  {
+    "id": "solo-3",
+    "type": "instrumental",
+    "frame": 3359,
+    "strength": 1,
+    "target": "spectrum-from-rainbow",
+    "source": "mix-spectral-onset"
+  },
+  {
+    "id": "solo-4",
+    "type": "instrumental",
+    "frame": 3404,
+    "strength": 0.9197,
+    "target": "spectrum-from-rainbow",
+    "source": "mix-spectral-onset"
+  },
+  {
+    "id": "solo-5",
+    "type": "instrumental",
+    "frame": 3449,
+    "strength": 1,
+    "target": "spectrum-from-rainbow",
+    "source": "mix-spectral-onset"
+  },
+  {
+    "id": "solo-6",
+    "type": "instrumental",
+    "frame": 3494,
+    "strength": 0.9857,
+    "target": "spectrum-from-rainbow",
+    "source": "mix-spectral-onset"
+  },
+  {
+    "id": "section-outro",
+    "type": "section",
+    "frame": 3525,
+    "strength": 0.2,
+    "target": "world",
+    "source": "lrc-structure"
+  },
+  {
+    "id": "solo-7",
+    "type": "instrumental",
+    "frame": 3539,
+    "strength": 0.9489,
+    "target": "spectrum-from-rainbow",
+    "source": "mix-spectral-onset"
+  }
+]
