@@ -35,7 +35,18 @@
     "inspect:v3": "python scripts/inspect-video-v3.py",
     "verify:previews:v3": "node scripts/verify-v3.mjs --previews && python scripts/verify-preview-v3.py",
     "contact-sheet:v3": "python scripts/contact-v3.py",
-    "package:v3": "python scripts/package-v3.py"
+    "package:v3": "python scripts/package-v3.py",
+    "check:v31": "tsc --noEmit && node scripts/validate-v3.mjs --color && node scripts/validate-v31.mjs",
+    "scenes:v31": "node scripts/render-v3.mjs scenes --color",
+    "stills:v31": "node scripts/render-v3.mjs stills --color",
+    "audit:v31": "node scripts/render-v3.mjs audit --color",
+    "preview:chorus:v31": "node scripts/render-v3.mjs chorus --color",
+    "render:v31": "node scripts/render-v3.mjs film --color",
+    "verify:v31": "node scripts/verify-v31.mjs",
+    "verify:preview:v31": "node scripts/verify-v31.mjs --preview && python scripts/verify-preview-v31.py",
+    "contact-sheet:v31": "python scripts/contact-v31.py",
+    "inspect:v31": "python scripts/inspect-video-v31.py",
+    "package:v31": "python scripts/package-v31.py"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.534",

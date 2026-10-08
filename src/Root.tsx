@@ -9,6 +9,8 @@ import {FilmV3,V3_DEFAULTS} from './v3/FilmV3';
 
 const timeline=source as Timeline;
 export const Root: React.FC = () => <>
+  <Composition id="RainLoveV31" component={FilmV3} width={1920} height={1080} fps={30} durationInFrames={3729} defaultProps={{...V3_DEFAULTS,sceneEdition:'color'}}/>
+  <Composition id="RainLoveV31Review" component={FilmV3} width={1920} height={1080} fps={30} durationInFrames={3729} defaultProps={{...V3_DEFAULTS,sceneEdition:'color',reviewAudio:true}}/>
   <Composition id="RainLoveV3" component={FilmV3} width={1920} height={1080} fps={30} durationInFrames={3729} defaultProps={V3_DEFAULTS}/>
   <Composition id="RainLoveV3Review" component={FilmV3} width={1920} height={1080} fps={30} durationInFrames={3729} defaultProps={{...V3_DEFAULTS,reviewAudio:true}}/>
   <Composition id="RainLoveV2" component={FilmV2} width={timeline.width} height={timeline.height} fps={timeline.fps}

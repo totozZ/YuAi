@@ -6,8 +6,9 @@ import {cameraAt,cameraTransform} from './camera';
 import {progress,smooth,smoother,lerp} from './motion';
 import {PALETTE} from './direction';
 import type {Overrides} from './types';
+import {sceneStyleAt,SCENE_CONFIG,type SceneEdition} from './scene-style';
 
-export type V3Props={reviewAudio:boolean;overrides:Overrides};
+export type V3Props={reviewAudio:boolean;overrides:Overrides;sceneEdition?:SceneEdition};
 const Grain:React.FC=()=>{
   const ref=useRef<HTMLCanvasElement>(null);
   useEffect(()=>{
@@ -19,19 +20,21 @@ const Grain:React.FC=()=>{
   return <canvas ref={ref} width={640} height={360} style={{position:'absolute',width:1920,height:1080,opacity:.035,mixBlendMode:'soft-light'}}/>;
 };
 
-export const FilmV3:React.FC<V3Props>=({reviewAudio,overrides})=>{
+export const FilmV3:React.FC<V3Props>=({reviewAudio,overrides,sceneEdition='classic'})=>{
   const real=useCurrentFrame(),{isRendering}=useRemotionEnvironment();
   const {timing,events,visualOffsetFrames}=resolveData(overrides);
   const frame=real-visualOffsetFrames;
-  const warm=smoother(progress(frame,2795,3210));
+  const scene=sceneStyleAt(frame,events,sceneEdition);
   const end=1-smoother(progress(real,3670,3728));
   const camera=cameraAt(frame,timing.lines,events);
   const titleExit=smoother(progress(frame,360,486));
   const titleScale=lerp(4.6,1.0,titleExit);
-  return <AbsoluteFill style={{background:PALETTE.ink,overflow:'hidden'}}>
-    <AbsoluteFill style={{background:`radial-gradient(ellipse at 64% 44%,rgba(${lerp(19,44,warm)},${lerp(35,30,warm)},${lerp(47,24,warm)},.7),transparent 72%)`,opacity:end}}>
+  const background=sceneEdition==='color'?(end<1?SCENE_CONFIG.palettes.solo.background:scene.background):PALETTE.ink;
+  return <AbsoluteFill style={{background,overflow:'hidden'}}>
+    <AbsoluteFill style={{background:scene.background,opacity:end}}>
+      <AbsoluteFill style={{background:scene.ambientGradient}}/>
       <Grain/>
-      <TypeWorld frame={frame} lines={timing.lines} events={events} offset={visualOffsetFrames}/>
+      <TypeWorld frame={frame} lines={timing.lines} events={events} offset={visualOffsetFrames} edition={sceneEdition}/>
       {frame<489&&<svg width="1920" height="1080" viewBox="0 0 1920 1080" style={{position:'absolute',inset:0}}>
         <g transform={cameraTransform(camera)}>
           <g data-node-id="title-rain-to-window" transform={`translate(${lerp(-540,-615,titleExit)} ${lerp(130,-235,titleExit)}) scale(${titleScale})`} opacity={smooth(progress(frame,24,70))*(1-titleExit*.87)}>

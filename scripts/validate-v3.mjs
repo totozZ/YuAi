@@ -1,10 +1,11 @@
 import assert from 'node:assert/strict';
-import {readFileSync,writeFileSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {moduleFromTs} from './v3-module.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const out=path.join(root,process.argv.includes('--color')?'out/v3.1':'out/v3');mkdirSync(out,{recursive:true});
 const load=name=>moduleFromTs(path.join(root,`src/v3/${name}.ts`));
 const {resolveData,OVERRIDES}=load('data');
 const {DIRECTIONS}=load('direction');
@@ -102,7 +103,7 @@ const report={status:'passed',lyricLines:19,units:163,sources,audioSha256:hash,
   clearAtReadableFrame:true,readingBounds:bounds,cameraContinuity:derivatives,manualOverrides:'passed',
   matchCuts:events.filter(e=>e.type==='match-cut'),musicEvents:events.length,humanListening:false,
   note:'Frame scheduling is deterministic. CTC and interpolated times remain estimates of sung timing.'};
-writeFileSync(path.join(root,'out/v3/source-validation.json'),JSON.stringify(report,null,2));
-writeFileSync(path.join(root,'out/v3/readable-frame-audit.json'),JSON.stringify(readChecks,null,2));
-writeFileSync(path.join(root,'out/v3/choreography.json'),JSON.stringify(DIRECTIONS,null,2));
+writeFileSync(path.join(out,'source-validation.json'),JSON.stringify(report,null,2));
+writeFileSync(path.join(out,'readable-frame-audit.json'),JSON.stringify(readChecks,null,2));
+writeFileSync(path.join(out,'choreography.json'),JSON.stringify(DIRECTIONS,null,2));
 console.log(JSON.stringify(report));

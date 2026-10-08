@@ -5,6 +5,7 @@ import {keyIndices,tokenPose} from './poses';
 import {cameraAt,originAt} from './camera';
 import {progress,smoother,smooth,lerp,clamp} from './motion';
 import type {CueLine,MusicEvent} from './types';
+import {sceneStyleAt,type SceneEdition} from './scene-style';
 
 function shape(kind:string,i:number,n:number):[number,number]{
   const t=i/n;
@@ -18,13 +19,13 @@ function shape(kind:string,i:number,n:number):[number,number]{
   if(p<3)return [440-(p-2)*880,230];return [-440,230-(p-3)*460];
 }
 
-export const WorldGeometry:React.FC<{frame:number;lines:CueLine[];events:MusicEvent[]}>=({frame,lines,events})=>{
+export const WorldGeometry:React.FC<{frame:number;lines:CueLine[];events:MusicEvent[];edition?:SceneEdition}>=({frame,lines,events,edition='classic'})=>{
   const camera=cameraAt(frame,lines,events);
   const current=lines.findIndex(l=>frame>=l.startFrame&&frame<l.endFrame);
   const region=current<0?frame<489?0:18:current;
   const head=originAt(lines[region],frame,lines,events);
-  const warm=smoother(progress(frame,2795,3210));
-  const color=warm>.5?PALETTE.gold:PALETTE.blue;
+  const style=sceneStyleAt(frame,events,edition);
+  const color=style.geometry;
   const history=lines.filter(l=>l.startFrame<=frame).map(l=>DIRECTIONS[l.id].world);
   const route=history.length?`M ${history.map(([x,y],i)=>`${i?'L ':''}${x-480} ${y+270}`).join(' ')} L ${head.x+580} ${head.y+270}`:'';
   const beat=events.filter(e=>e.type==='beat'&&frame>=e.frame&&frame<e.frame+12).reduce((v,e)=>Math.max(v,e.strength*(1-progress(frame,e.frame,e.frame+12))),0);
@@ -75,7 +76,7 @@ export const WorldGeometry:React.FC<{frame:number;lines:CueLine[];events:MusicEv
       <path d="M -640 -255 H 515 V 220 H -640 Z M -70 -255 V 220 M -640 -15 H 515" strokeWidth="1.1"/>
     </g>}
     {frame>=lines[18].tokens[4].readableFrame+15&&<g data-node-id="spectrum-from-rainbow" fill="none">
-      {PALETTE.spectrum.map((c,i)=>{
+      {style.spectrum.map((c,i)=>{
         const solo=progress(frame,3117,3728),calm=1-progress(frame,3495,3675);
         const shift=smoother(progress(frame,3100,3250));
         const cx=lerp(originAt(lines[18],3117,lines,events).x,camera.x,shift);
@@ -85,7 +86,7 @@ export const WorldGeometry:React.FC<{frame:number;lines:CueLine[];events:MusicEv
         const soloPulse=events.filter(e=>e.type==='instrumental'&&frame>=e.frame&&frame<e.frame+24)
           .reduce((v,e)=>v+Math.sin(progress(frame,e.frame,e.frame+24)*Math.PI)*e.strength,0);
         const bend=(Math.sin(frame*.015+i*.11)*45+soloPulse*34)*calm;
-        return <path key={c} d={`M ${cx-length} ${cy+y+170} C ${cx-length*.44} ${cy+y-340+bend} ${cx+length*.44} ${cy+y-340-bend} ${cx+length} ${cy+y+170}`} stroke={c} strokeWidth={1.5+i*.32+soloPulse*.6} opacity={smooth(progress(frame,2990,3170))*(.48-solo*.18)}/>;
+        return <path key={i} d={`M ${cx-length} ${cy+y+170} C ${cx-length*.44} ${cy+y-340+bend} ${cx+length*.44} ${cy+y-340-bend} ${cx+length} ${cy+y+170}`} stroke={c} strokeWidth={(style.isLight?2.4:1.5)+i*.32+soloPulse*.6} opacity={smooth(progress(frame,2990,3170))*((style.isLight?.68:.48)-solo*.18)}/>;
       })}
     </g>}
   </g>;
